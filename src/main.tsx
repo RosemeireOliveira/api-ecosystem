@@ -8,6 +8,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 //Importar CSS
 import './index.css'
+//Importar Pages
+import Servicos from './pages/Servicos'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -15,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Header />
       <Routes>
       {/* <Route path='/' element={ <Home /> } /> */}
+        <Route path='/servicos' element={ <Servicos /> } /> 
       </Routes>
       <Footer />
     </BrowserRouter>
