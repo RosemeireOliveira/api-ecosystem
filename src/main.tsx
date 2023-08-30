@@ -8,6 +8,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 //Importar CSS
 import './index.css'
+//Importar Pages
+import QueroDoarParte1 from './pages/QueroDoarParte1'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -15,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Header />
       <Routes>
       {/* <Route path='/' element={ <Home /> } /> */}
+        <Route path='/querodoarpt1' element={ <QueroDoarParte1 /> } /> 
       </Routes>
       <Footer />
     </BrowserRouter>
