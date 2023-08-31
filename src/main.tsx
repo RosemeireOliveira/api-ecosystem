@@ -8,15 +8,18 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 //Importar CSS
 import './index.css'
+//Importar Pages
+import DoacoesFinalizadas from './pages/DoacoesFinalizadas'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <BrowserRouter> 
-      <Header />
-      <Routes>
-      {/* <Route path='/' element={ <Home /> } /> */}
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-  </React.StrictMode>,
+<React.StrictMode>
+<BrowserRouter>
+<Header />
+<Routes>
+{/* <Route path='/' element={ <Home /> } /> */}
+<Route path='/doacoesfinalizadas' element={ <DoacoesFinalizadas /> } />
+</Routes>
+<Footer />
+</BrowserRouter>
+</React.StrictMode>,
 )
