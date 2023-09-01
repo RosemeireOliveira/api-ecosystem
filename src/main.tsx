@@ -17,7 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Header />
       <Routes>
       {/* <Route path='/' element={ <Home /> } /> */}
-        <Route path='/contato' element={ <AgendarColeta /> } /> 
+        {/* <Route path='/contato' element={ <AgendarColeta /> } />  */}
+        <Route path='agendarColeta' element={ <AgendarColeta/> }/>
+
       </Routes>
       <Footer />
     </BrowserRouter>
