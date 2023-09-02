@@ -88,6 +88,7 @@ aside li:nth-child(2) a  {
     font-size: 22px;
     font-family: var(--font1);
     color: var(--cinza);
+    padding: 0 5px;
 }
 
 
