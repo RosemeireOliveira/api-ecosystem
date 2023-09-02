@@ -4,9 +4,16 @@ import img_card_002 from '../../assets/img/img_card_002.png'
 import ico_edit from '../../assets/img/ico_edit.svg';
 import ico_eye from '../../assets/img/ico_eye.svg'
 import ico_delete from '../../assets/img/ico_delete.svg'
+import { Link, useNavigate } from 'react-router-dom';
 
 
 function AgendarColeta() {
+
+        let navigate = useNavigate()
+
+    function click(){
+        navigate('/home')
+    }
 
     function msgDeletarColeta(){
         alert('A doação foi cancelada! O doador irá ser notificado');
@@ -85,12 +92,12 @@ function AgendarColeta() {
                                                             alt="Icone de visualizar"
                                                         />
                                                     </a>
-                                                    <a href="#" onClick={msgDeletarColeta()}>
+                                                    {/* <a href="#" onClick={msgDeletarColeta()}>
                                                         <img
                                                             src= {ico_delete}
                                                             alt="Icone de Deletar"
                                                         />
-                                                    </a>
+                                                    </a> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -131,26 +138,24 @@ function AgendarColeta() {
                                                             alt="Icone de visualizar"
                                                         />
                                                     </a>
-                                                    <a href="#" onClick= {msgDeletarColeta()}>
+                                                    {/* <a href="#" onClick= {msgDeletarColeta()}>
                                                         <img
                                                             src= { ico_delete }
                                                             alt="Icone de Deletar"
                                                         />
-                                                    </a>
+                                                    </a> */}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="btnVoltar">
-                                        <a href="#" onClick={history.back()}>
-                                            voltar
-                                        </a>
+                                        <Link to ={ click() }>voltar</Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>  
             </main>
 
 
