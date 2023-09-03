@@ -1,13 +1,15 @@
-
-// import Pagina_Inicial from '../PaginaInicial'
-// "../../img/home_carrousel_bg_banner1.jpg"
-// "../../img/home_carrousel_bg_banner2.jpg"
-// "../../img/home_carrousel_bg_banner3.jpg"
-// "../../img/Home_lixo_eletronico.png"
-// "../../img/home_exemplosImg.png"
-
-
+//Import Style
 import './style.css'
+//Import Swiper Carrousel
+import { Swiper, SwiperSlide } from 'swiper/react';
+// import Modulos Extras;
+import { Keyboard, Autoplay } from 'swiper/modules';
+//Import dos Estilos
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/keyboard';
+
+//Import Imagens
 import home_carrousel_bg_banner1 from '../../assets/img/home_carrousel_bg_banner1.jpg'
 import home_carrousel_bg_banner2 from '../../assets/img/home_carrousel_bg_banner2.jpg'
 import home_carrousel_bg_banner3 from '../../assets/img/home_carrousel_bg_banner3.jpg'
@@ -15,42 +17,43 @@ import Home_lixo_eletronico from '../../assets/img/Home_lixo_eletronico.png'
 import home_exemplosImg from '../../assets/img/home_exemplosImg.png'
 
 
+
+
 function PaginaInicial() {
+    //Array Contendo todas as imagens do carrousel
+    const slides = [
+        home_carrousel_bg_banner1,
+        home_carrousel_bg_banner2,
+        home_carrousel_bg_banner3
+    ]
+    
 
     return (
-        <>
             <main>
                 <h1>página home ecosystem & recycle</h1>
                 <section className="bannerCarrousel">
-                    <div className="swiper">
-                        <div className="swiper-wrapper">
-                            <div className="swiper-slide">
-                                <div className="project-img">
-                                    <img src={home_carrousel_bg_banner1} alt="imagem 1 do carroucel dev fotos do banner principal" />
-                                </div>
-                            </div>
-
-                            <div className="swiper-slide">
-                                <div className="project-img">
-                                    <img src={home_carrousel_bg_banner2} alt="imagem 2 do carroucel dev fotos do banner principal" />
-                                </div>
-                            </div>
-
-                            <div className="swiper-slide">
-                                <div className="project-img">
-                                    <img src={home_carrousel_bg_banner3} alt="Imagem 3 do carrousel de fotos do banner principal" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="swiper-button-next"></div>
-                        <div className="swiper-button-prev"></div>
-                    </div>
+                    
+                    <Swiper
+                        modules= {[Autoplay, Keyboard]}
+                        spaceBetween={50}
+                        slidesPerView={1}
+                        loop
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false
+                        }}
+                        keyboard = {true}
+                    >
+                        {slides.map((slide:any, index: number) => (
+                            <SwiperSlide key={ index }>
+                                <img  src={slide} alt={slide} />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                     <div className="txtBtn_banner">
                         <h2>ECO SYSTEM & </h2>
                         <h2>RECYCLE</h2>
                         <p>A Eco System & Recycle nasceu da necessidade por soluções que acelerem iniciativas de forma rápida e orgânica tornando se empresa de impacto socio ambiental.</p> 
-                        <p>A Eco System & Recycle se compromete com o meio ambiente e com a sociedade facilitando o processo de descarte de resíduos eletrônicos de forma correta e segura!</p>
                         <a href="../Tela_Login_Doador/index.html" className="btn_cadastrar">cadastra-se</a>
                     </div>
                 </section>
@@ -122,7 +125,6 @@ function PaginaInicial() {
                     </div>
                 </section>
             </main>
-        </>
     )
 }
 export default PaginaInicial;
