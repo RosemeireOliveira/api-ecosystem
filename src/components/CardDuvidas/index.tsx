@@ -13,7 +13,7 @@ function CardDuvidas(props: any) {
     return (
         <>
             <h3 className="faq-title">{props.pergunta}</h3>
-            <p className={active ? "ativo faq-text" : ""}>
+            <p className={!active ? "ativo faq-text" : "faq-text"}>
                 {props.resposta}
             </p>
             <button onClick={ handleToggle } className="faq-toggle">
