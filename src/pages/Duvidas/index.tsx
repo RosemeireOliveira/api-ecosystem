@@ -1,27 +1,25 @@
+import { useState } from 'react';
 import './style.css'
+import CardDuvidas from '../../components/CardDuvidas';
 
 function Duvidas() {
-    // Função Esconder Menus -> DUVIDAS
-    // const toggles = document.querySelectorAll('.faq-toggle')
+    const [perguntas, setPerguntas] = useState<any[]>([
+        {
+            questao: "Como faço para agendar a coleta?",
+            respota: "Faça o cadastro em nosso site, informando seus dados de endereço completo, relação de itens que precisa fazer o descarte e foto dos materiais e programe o dia e hora para que um coletor parceiro faça a retirada.",
+            id: 1
+        },
+        {
+            questao: "sei la",
+            respota: "poor ainda",
+            id: 2
+        }
 
-    // toggles.forEach((toggle:any) => {
-    //     toggle.addEventListener('click', () => {
-    //         toggle.parentNode.classList.toggle('active');
-    //     });
-    // });
+    ]);
 
-    // // SOCIAL PANEL JS
-    // const floating_btn = document.querySelector('.floating-btn') as HTMLCanvasElement
-    // const close_btn = document.querySelector('.close-btn') as HTMLCanvasElement
-    // const social_panel_container = document.querySelector('.social-panel-container') as HTMLCanvasElement
 
-    // floating_btn.addEventListener('click', () => {
-    //     social_panel_container.classList.toggle('visible')
-    // });
 
-    // close_btn.addEventListener('click', () => {
-    //     social_panel_container.classList.remove('visible')
-    // });
+    
 
     return (
         <>
@@ -42,19 +40,30 @@ function Duvidas() {
                                 <div className="Conteudo">
                                     {/*  */}
                                     <div className="faqs-container">
-                                        <div className="faq">
-                                            <h3 className="faq-title">Como faço para agendar a coleta?</h3>
-                                            <p className="faq-text">
-                                                Faça o cadastro em nosso site, informando seus dados de
-                                                endereço completo, relação de itens que precisa fazer o
-                                                descarte e foto dos materiais e programe o dia e hora para que
-                                                um coletor parceiro faça a retirada.
-                                            </p>
-                                            <button className="faq-toggle">
-                                                <i className="fas fa-chevron-down" />
-                                                <i className="fas fa-times" />
-                                            </button>
+                                            {/* <div className="faq">
+                                                <h3 className="faq-title">Como faço para agendar a coleta?</h3>
+                                                <p  className={active ? "ativo faq-text" : ""}>
+                                                    Faça o cadastro em nosso site, informando seus dados de
+                                                    endereço completo, relação de itens que precisa fazer o
+                                                    descarte e foto dos materiais e programe o dia e hora para que
+                                                    um coletor parceiro faça a retirada.
+                                                </p>
+                                                <button onClick={handleToggle} className="faq-toggle">
+                                                    <i className="fas fa-chevron-down" />
+                                                    <i className="fas fa-times" />
+                                                </button>
+                                            </div> */}
+                                        {perguntas.map((pergunta: any, index: number) => {
+                                            return <div className="faq" key={index}>
+                                            
+                                            <CardDuvidas 
+                                                pergunta={pergunta.questao}
+                                                resposta={pergunta.resposta}
+                                            />
                                         </div>
+                                        }
+                                        )}
+                                            
                                         {/*  */}
                                         <div className="faq">
                                             <h3 className="faq-title">
