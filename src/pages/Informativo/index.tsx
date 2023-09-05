@@ -140,8 +140,28 @@ function Informativo() {
                     principalmente os peixes e as algas. Prata – tem efeito cumulativo; 10 g
                     de nitrato de prata é letal ao homem.
                 </p>
+
                 <h3> ESTATISTICAS SOBRE O DESCARTE DO LIXO ELETRÔNICO.  </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium praesentium nam quasi ut, obcaecati doloremque explicabo animi rem totam iste. A reprehenderit fuga quo doloremque accusantium quis numquam ut?</p>
+
+                                <p>Publicado em 07/10/2021 - 17:12 Por Mariana Tokarnia – Repórter da Agência Brasil- Rio de Janeiro
+Fones de ouvido, pilhas, celulares, eletrodomésticos. Todos esses utensílios, quando deixam de funcionar e não são mais aproveitados, viram lixo eletrônico. O Brasil é o quinto maior gerador desse lixo no mundo. Mesmo assim, muita gente ainda não sabe o que é esse tipo de resíduo e como ele deve ser descartado para evitar danos ao meio ambiente e à saúde humana.   
+As informações são da pesquisa Resíduos eletrônicos no Brasil - 2021, divulgada hoje (7) pela Green Eletron, gestora sem fins lucrativos de logística reversa de eletroeletrônicos e pilhas. O estudo foi conduzido pela Radar Pesquisas. 
+A maior parte dos brasileiros (87%) já ouviu falar em lixo eletrônico, mas um terço (33%) acredita que esse lixo está relacionado ao meio digital, como spam, e-mails, fotos ou arquivos. Para outros 42% dos brasileiros lixo eletrônico são aparelhos eletrônicos e eletrodomésticos quebrados e 3% acreditam que são todos os aparelhos que já viraram lixo, ou seja, apenas os que foram descartados, inclusive aqueles que acabam incorretamente em aterros ou na natureza.
+A pesquisa também especificou alguns produtos para saber se as pessoas os reconheciam como lixo eletrônico. Mais de 90% acreditam que celulares, smartphones, tablets, notebooks, pilhas e baterias são lixo eletrônico e estão corretos. 
+Houve, no entanto, muitas respostas erradas: 51% não acham que lâmpadas comuns, incandescentes e fluorescentes são lixo eletrônico; 34% acreditam que lanternas não são lixo eletrônico; e 37% acreditam que balanças não são lixo eletrônico. Na verdade, todos esses objetos são lixo eletrônico. 
+O conceito de Resíduo de Equipamentos Elétricos e Eletrônicos (REEE) é todo produto elétrico ou eletrônico que descartado por não ter mais utilidade. Inclui grandes equipamentos como geladeiras, freezers, máquinas de lavar; pequenos equipamentos como torradeiras, batedeiras, aspiradores de pó, ventiladores; equipamentos de informática como computadores e celulares; e pilhas e baterias. 
+Descarte 
+O descarte incorreto de lixo eletrônico é considerado um problema, pois os componentes químicos podem ser prejudiciais ao meio ambiente e à saúde humana. 
+Anualmente, mais de 53 milhões de toneladas de equipamentos eletroeletrônicos e pilhas são descartadas em todo o mundo, segundo o The Global E-waste Monitor 2020. Na outra ponta, o número de dispositivos, no mundo, cresce cerca de 4% por ano. Apenas o Brasil descartou, em 2019, mais de 2 milhões de toneladas de resíduos eletrônicos, sendo que menos de 3% foram reciclados, de acordo com o relatório desenvolvido pela Universidade das Nações Unidas. 
+A pesquisa mostrou que, no Brasil, 16% descartam com certa frequência algum eletroeletrônico no lixo comum. Esse tipo de descarte não permite a reciclagem das matérias-primas presentes nos aparelhos. Um terço dos entrevistados (33%) nunca ouviu falar em pontos ou locais de descarte correto para lixo eletrônico. 
+A maioria (87%) disse guardar algum tipo de eletroeletrônico sem utilidade em casa. Mais de 30% fica com eles por mais de um ano.
+Ao todo, foram entrevistadas para o estudo 2.075 pessoas de 18 a 65 anos, entre os dias 14 e 24 de maio de 2021. A pesquisa foi feita no Distrito Federal e em 13 estados: São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo, Bahia, Ceará, Pernambuco, Rio Grande do Sul, Paraná, Santa Catarina, Pará, Goiás e Mato Grosso do Sul. 
+O que diz a lei 
+No Brasil, a destinação correta do lixo eletrônico está prevista na Política Nacional de Resíduos Sólidos (Lei 12.305/2010) e é regulamentada pelo Decreto Federal 10.240/2020. Este dispositivo define metas para os fabricantes, importadores, distribuidores e comerciantes sobre a quantidade de pontos de Entrega Voluntária (PEV) que devem ser instalados, o número de cidades atendidas e o percentual de aparelhos eletroeletrônicos a serem coletados e destinados corretamente. 
+Pelo decreto, as empresas devem, gradualmente, até 2025, instalar PEVs nas 400 maiores cidades do Brasil e coletar e destinar o equivalente em peso a 17% dos produtos colocados no mercado em 2018, ano definido como base.
+Edição: Denise Griesinger
+</p>
+
             </section>
             </main>
         </>
