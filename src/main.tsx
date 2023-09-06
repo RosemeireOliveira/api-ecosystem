@@ -12,14 +12,16 @@ import './index.css'
 import ColetasAgendadas from './pages/ColetasAgendadas'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-<React.StrictMode>
-<BrowserRouter>
-<Header />
-<Routes>
-{/* <Route path='/' element={ <Home /> } /> */}
-<Route path='/coletasagendadas' element={ <ColetasAgendadas /> } />
-</Routes>
-<Footer />
-</BrowserRouter>
-</React.StrictMode>,
+  <React.StrictMode>
+    <BrowserRouter> 
+      <Header />
+      <Routes>
+      {/* <Route path='/' element={ <Home /> } /> */}
+        {/* <Route path='/contato' element={ <AgendarColeta /> } />  */}
+        <Route path='coletasagendadas' element={ <ColetasAgendadas/> }/>
+
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  </React.StrictMode>,
 )
