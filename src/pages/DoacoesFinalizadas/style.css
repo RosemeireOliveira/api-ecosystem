@@ -1,0 +1,364 @@
+
+
+:root{
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Inter', sans-serif;
+    --verde1: #045328;
+    --verde2: #1B8D73;
+    --branco: #fff;
+    --roxo: #9319CC;
+    --cinza: rgb(156, 156, 156);
+}
+
+.conteudo_doacoes{
+    display: grid;
+    column-gap: 3rem;
+    grid-template-columns: minmax(238px,0.25fr) 1fr;
+    padding: 60px 0;
+}
+
+aside ul{
+    list-style-type: none;
+    color: black;
+}
+
+/* ####### ESPAÇO ENTRE SEGUNDO E TERCEIRO LI ########## */
+aside li:nth-child(2){
+    padding: 1rem 0;
+}
+
+
+
+aside a{
+    color: black;
+    font-family: var(--font2);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0 15px;   
+}
+
+
+
+/* ####### Estilização do Elemento selecionado no ASIDE ########## */
+
+aside li:nth-child(2) a  {
+    color:var(--roxo);
+    font-weight: 900;
+    border: 3px solid var(--roxo);
+    border-radius: 10px;
+    padding: 5px 15px;
+    background: rgba(159, 47, 187, 0.30);
+}
+
+.menu_Direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.title{
+    padding-bottom: 40px;
+}
+
+.title h2{
+    font-family: var(--font2);
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.title p{
+    font-family: var(--font2);
+    font-size: 1rem;
+    color: var(--cinza);
+}
+
+
+
+
+
+.links_pags{
+    padding-bottom: 0.6rem;
+}
+
+
+.links_pags a{
+    border-radius: 9px;
+    border: 2px solid rgba(156, 156, 156, 0.80);  
+    padding: 1px 7px;
+    font-family: var(--font1);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: var(--cinza);
+}
+
+.links_pags span{
+    font-size: 22px;
+    font-family: var(--font1);
+    color: var(--cinza);
+}
+
+
+.links_pags a:nth-child(3){
+    border: 3px solid var(--roxo);
+    color: var(--roxo);
+}
+
+
+
+
+.historic_cards{
+    border: 2px solid rgb(156, 156, 156, 0.7);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: var(--font2);
+}
+
+.btnVoltar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnVoltar > a{
+    border-radius: 15px;
+    border: 4px solid var(--roxo);
+    padding: 2px 35px;
+    font-family: var(--font1);
+    font-size: 18px;
+    font-weight:800;
+    text-transform: uppercase;
+
+    /* &:active{
+        transform: translateY(2px);
+        &::before{
+            animation: Press;
+        }
+    } */
+}
+
+
+.Conteudo_Cards{
+    display: grid;
+    justify-items: center;
+    row-gap: 10rem;
+
+    font-family: var(--font2);
+    font-size: 40px;
+    color: var(--cinza);
+    font-weight: 900;
+    
+    padding: 200px 0;
+}
+
+
+
+
+
+
+/* ### Seção @Media ### */
+
+
+@media screen and (max-width: 1072px) {
+
+    header{
+        position: relative;
+    }
+    .div_headerPosition{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_barras{
+        display: flex;
+    }
+
+    #log_doador1{
+        display: none;
+    }
+
+    #log_doador2{
+        display: flex;
+    }
+
+    .div_headerPosition > div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .div_headerPosition > div svg{
+        padding-left: 20px;
+    }
+    
+    
+
+    #menu_links{
+        display: none;
+        flex-direction: column;
+
+        position: absolute;
+        align-items: center;
+
+        right: 30px;
+        top: 80px;
+        z-index: 3;
+
+        width: 200px;
+        background-color: var(--verde1);
+        padding: 5px 0 10px 0;
+
+
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+
+	.underline{
+		margin: 10px 0 5px 0;
+	}
+
+    aside a{
+        font-size: 13px;
+        padding: 0 10px;   
+    }
+
+    .conteudo_doacoes{
+
+        column-gap: 1rem;
+        grid-template-columns: minmax(210px,0.15fr) 1fr;
+        /* padding: 60px 0; */
+    }
+
+
+    .title{
+        padding-bottom: 30px;
+    }
+    
+    .title h2{
+        font-size: 1.6rem;
+    }
+    
+    .title p{
+        font-size: 0.8rem;
+    }
+
+    .links_pags a{
+        font-size: 17px;
+    }
+    
+    .links_pags span{
+        font-size: 19px;
+    }
+
+    .btnVoltar > a{
+        font-size: 15px;
+    }
+
+    .div_footerPosition{
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .div_footerPosition>div{
+        padding: 30px 0;
+    } 
+}
+
+/* @media screen and (max-width: 1010px) {
+} */
+
+@media screen and (max-width: 812px) {
+    .div_banner2{
+        flex-wrap: wrap;
+    }
+
+    .div_banner2 div{
+        padding-bottom: 30px;
+    }
+
+
+    .Conteudo{
+        grid-template-columns: repeat(1, 1fr);
+        /* justify-items: center; */
+        row-gap: 3rem;
+    }
+
+    .Conteudo_Cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 5rem;
+        margin-bottom: 100px;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .links_pags a{
+        font-size: 14px;
+        padding: 1px 4px;
+    }
+    
+    .wrapper{
+        width: 95%;
+    }
+
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .logoImg{
+        width: 90%;
+        height: 90%;
+    }
+    
+
+    .conteudo_doacoes{
+        padding: 25px 0;
+        column-gap: 0.5rem;
+        grid-template-columns: minmax(188px,0.15fr) 1fr;
+        grid-template-rows: 100px 1fr;
+    }
+
+    aside{
+        grid-column: 1/3;
+        grid-row: 1/3;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .menu_Direito{
+        grid-column: 1/3;
+        grid-row: 2/4;
+        align-items: center;
+    }
+
+    .links_pags span{
+        padding: 0 5px;
+    }
+
+    .title{
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .links_pags{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 454px) {
+    .div_banner img{
+    display: none;    }
+}
