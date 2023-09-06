@@ -1,9 +1,11 @@
 import './style.css'
+import pessoas from "../../assets/img/img_grupo.png"
+import missao from "../../assets/img/Icone_Missao.svg"
 
 function NossaHistoria (){
 
 
-    return (
+  return (
         <>
         <main>
   <h1>página nossa história ecosystem &amp; recycle</h1>
@@ -25,7 +27,7 @@ function NossaHistoria (){
           </p>
         </div>
         <img
-          src="../../img/img_grupo.png"
+            src={pessoas}  
           alt="Imagem com grupo de pessoas simbolizando o nosso trabalho em equipe"
         />
       </div>
@@ -36,7 +38,8 @@ function NossaHistoria (){
       <div>
         <h3>missão</h3>
         <img
-          src="../../img/Icone_Missao.svg"
+          src={missao}
+
           alt="Icone de um alvo com uma flecha no centro"
           className="img_missao"
         />
