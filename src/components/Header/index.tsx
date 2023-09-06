@@ -1,5 +1,5 @@
 import './style.css'
-
+import DoadorLogado from '../../components/DoadorLogado'
 import imgLogo from "../../assets/img/logo_vertical.png";
 
 function Header() {
@@ -55,7 +55,9 @@ function Header() {
                     <a href="../TelaServicos/index.html" className="underline">serviços</a>
                     <a href="../Tela_Duvidas/index.html" className="underline">dúvidas</a>
                     <a href="../Tela_Contato/index.html" className="underline">contato</a>
-                    <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a>
+                    <DoadorLogado />
+
+                    {/* <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a> */}
                 </nav>
             </div>
         </header>
