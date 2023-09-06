@@ -1,6 +1,8 @@
 import './style.css'
 import pessoas from "../../assets/img/img_grupo.png"
 import missao from "../../assets/img/Icone_Missao.svg"
+import visao from "../../assets/img/Icone_Visao.svg"
+import valores from "../../assets/img/Icone_Valores.svg"
 
 function NossaHistoria (){
 
@@ -52,7 +54,8 @@ function NossaHistoria (){
       <div>
         <h3>visão</h3>
         <img
-          src="../../img/Icone_Visao.svg"
+          src={visao
+        } 
           alt="Icone de um olho simbolizando a visão da empresa"
           className="img_visao"
         />
@@ -66,7 +69,7 @@ function NossaHistoria (){
       <div>
         <h3>valores</h3>
         <img
-          src="../../img/Icone_Valores.svg"
+          src={valores}
           alt="Icone de um computador com um símbolo de tickado simbolizando os valores da empresa"
           className="img_valor"
         />
