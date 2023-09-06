@@ -1,4 +1,5 @@
 import './style.css'
+import imgGoogle from "../../assets/img/login_Btn_Google.png"
 
 function Login() {
 
@@ -16,7 +17,7 @@ function Login() {
                             type="email"
                             name="login_email"
                             id="login_email"
-                            placeholder="digite seu email"
+                            placeholder="Digite seu e-mail"
                         />
                         <br />
                         <label htmlFor="login_senha">Senha:</label>
@@ -25,13 +26,13 @@ function Login() {
                             type="password"
                             name="login_senha"
                             id="login_senha"
-                            placeholder="digite sua senha"
+                            placeholder="Digite sua senha"
                         />
                         <br />
                         <button
                             className="formulario_botao"
                             type="submit"
-                            onClick={logar} return false
+                        // onClick={logar} return false
                         >
                             Enviar
                         </button>
@@ -40,7 +41,7 @@ function Login() {
                             href="https://accounts.google.com/v3/signin/identifier?dsh=S1963277586%3A1688274570474968&continue=https%3A%2F%2Fwww.google.com.br%2F&ec=GAZAmgQ&hl=pt-BR&ifkv=AeDOFXgCJz1IrXfYbieSY_TrrLvErNRPYDzYGxbHFZ3dchrH_CIWuuEUxtzryf5u7TnsXGlIUhTq4g&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
                         >
                             Conecte-se com o google
-                            <img src="../../img/login_Btn_Google.png" alt="logo do google" />
+                            <img src={imgGoogle} alt="logo do google" />
                         </a>
                     </form>
                     <form className="formulario_cadastro">
@@ -51,7 +52,7 @@ function Login() {
                             type="text"
                             name="cadastro_name"
                             id="cadastro_name"
-                            placeholder="digite seu nome Completo"
+                            placeholder="Digite seu nome completo"
                         />
                         <br />
                         <label htmlFor="cadastro_email">E-mail:</label>
@@ -60,7 +61,7 @@ function Login() {
                             type="email"
                             name="cadastro_email"
                             id="cadastro_email"
-                            placeholder="digite seu email"
+                            placeholder="Digite seu e-mail"
                         />
                         <br />
                         <label htmlFor="login_senha">Senha:</label>
@@ -69,16 +70,16 @@ function Login() {
                             type="password"
                             name="login_senha"
                             id="login_senha"
-                            placeholder="digite sua senha"
+                            placeholder="Digite sua senha"
                         />
                         <br />
-                        <label htmlFor="confirmacao_senha">Confirmar senha:</label>
+                        <label htmlFor="confirmacao_senha">Confirmar Senha:</label>
                         <br />
                         <input
                             type="password"
                             name="confirmacao_senha"
                             id="confirmacao_senha"
-                            placeholder="confirme sua senha"
+                            placeholder="Confirme sua senha"
                         />
                         <br />
                         <div className="opcao">

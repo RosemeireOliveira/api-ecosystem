@@ -12,6 +12,8 @@
   --font2: 'Inter', sans-serif;
   --verde1: #045328;
   --branco: #fff;
+  --roxo: #9319CC;
+  --cinza: rgb(187, 185, 185, 0.4);
 }
 
 .wrapper{
@@ -25,4 +27,8 @@ h1{
   left: -999em;
   width: 1em;
   overflow: hidden;
+}
+
+h2{
+  font-family: var(--font2);
 }
