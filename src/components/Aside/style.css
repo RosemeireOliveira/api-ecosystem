@@ -1,29 +1,30 @@
-aside ul {
+aside ul{
     list-style-type: none;
     color: black;
 }
 
 /* ####### ESPAÇO ENTRE SEGUNDO E TERCEIRO LI ########## */
-aside li:nth-child(2) {
+aside li:nth-child(2){
     padding: 1rem 0;
 }
 
 
 
-aside a {
+aside a{
     color: black;
     font-family: var(--font2);
     font-size: 16px;
     text-transform: capitalize;
     font-weight: 600;
-    padding: 0 15px;
+    padding: 0 15px;   
 }
+
 
 
 /* ####### Estilização do Elemento selecionado no ASIDE ########## */
 
-aside li:nth-child(1) a {
-    color: var(--roxo);
+aside li:nth-child(2) a  {
+    color:var(--roxo);
     font-weight: 900;
     border: 3px solid var(--roxo);
     border-radius: 10px;
