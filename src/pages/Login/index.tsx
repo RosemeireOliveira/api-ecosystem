@@ -1,8 +1,31 @@
 import './style.css'
 import imgGoogle from "../../assets/img/login_Btn_Google.png"
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 function Login() {
 
+    const navigate = useNavigate()
+
+    const [email, setEmail] = useState<string>("")
+    const [senha, setSenha] = useState<string>("")
+
+    function fazerLogin(event: any) {
+        event.preventDefault()
+
+        const usuario: object = {
+            email: email,
+            password: senha
+        }
+
+        api.post("login", usuario).then((response) => {
+            console.log(response);
+
+            secureLocalStorage.setItem("user", response.data)
+            navigate("/perfil/" + response.data.user.id)
+            navigate(0)
+        })
+    }
 
     return (
         <>
