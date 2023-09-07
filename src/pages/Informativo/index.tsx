@@ -143,7 +143,7 @@ function Informativo() {
 
                     {/* linha de separacao HR <hr /> */}
 
-                    <h3 className='Texto_Novo'> ESTATISTICAS SOBRE O DESCARTE DO LIXO ELETRÔNICO.  </h3>
+                    <h3 className='git '> ESTATISTICAS SOBRE O DESCARTE DO LIXO ELETRÔNICO.  </h3>
 
                     <p>Publicado em 07/10/2021 - 17:12 Por Mariana Tokarnia – Repórter da Agência Brasil- Rio de Janeiro
                         Fones de ouvido, pilhas, celulares, eletrodomésticos. Todos esses utensílios, quando deixam de funcionar e não são mais aproveitados, viram lixo eletrônico. O Brasil é o quinto maior gerador desse lixo no mundo. Mesmo assim, muita gente ainda não sabe o que é esse tipo de resíduo e como ele deve ser descartado para evitar danos ao meio ambiente e à saúde humana.

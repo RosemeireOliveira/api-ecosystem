@@ -14,7 +14,7 @@ main {
     
     padding-top: 80px; */
 
-    /* background-color: #EAF207; */
+/* background-color: #EAF207; */
 /* } */
 
 h2 {
@@ -106,7 +106,7 @@ h2 {
     text-align: center;
     /* justify-content: center;     */
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: -45px;
 }
 
 .impacto p {
@@ -120,12 +120,14 @@ h2 {
 }
 
 .tabela_periodica {
+
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    
+    margin: 20px;
+
 }
 
 .tabela {
@@ -134,16 +136,19 @@ h2 {
     /* align-items: center; */
     /* width: 1550px; */
     /* height: 800px; */
-    margin-bottom: 80px;    
+    margin-bottom: 80px;
     max-width: 100%;
 }
 
 .tabela_periodica p {
     display: flex;
     justify-content: center;
-    width: 1500px;
+    width: 1440px;
     font-size: 25px;
     text-align: justify;
+
+    line-height: 30px;
+
     padding: 0 50px;
     margin-bottom: 100px;
 }
@@ -237,17 +242,18 @@ p {
 }
 
 h3 {
-text-align: center;
-font-family:  var(--font1); 
-font-size: 50px;
-padding-top: 10px;
- 
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 50px;
+    padding-top: 10px;
+
 }
 
-p{
-text-align: center;
-padding-top: 20px;
-font-family: var(--font2);
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--font2);
 
 }
 
@@ -273,16 +279,16 @@ font-family: var(--font2);
 }
 
 
-.Texto_Novo{
-text-transform: uppercase;
-margin-top: 80px;
-margin-bottom: 100px;
+.Texto_Novo {
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
-#texto_final{
+#texto_final {
 
-margin-bottom: 150px;
-    
+    margin-bottom: 150px;
+
 }
 
 
@@ -296,16 +302,19 @@ margin-bottom: 150px;
     .div_banner2 div {
         padding-bottom: 30px;
     }
-    .lixo2 p  {
+
+    .lixo2 p {
         display: flex;
         max-width: 500px;
     }
+
     .lixo1 p {
         display: flex;
-        max-width: 500px; 
-   
-    
+        max-width: 500px;
+
+
     }
+
     .wrapper_lixo2 {
         display: flex;
         max-width: 500px;
@@ -320,15 +329,17 @@ margin-bottom: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90%; 
+        width: 90%;
     }
-    .tabela_periodica p{
+
+    .tabela_periodica p {
         display: flex;
         justify-content: center;
         text-align: justify;
         width: 90%;
-        max-width: 500px; 
+        max-width: 500px;
     }
+
     .tabela {
         display: flex;
         justify-content: center;
@@ -340,14 +351,16 @@ margin-bottom: 150px;
         height: 300px; */
         margin-top: 110px;
         background-color: antiquewhite;
-    } 
-    .impacto{
+    }
+
+    .impacto {
         display: flex;
         justify-content: center;
         flex-direction: column;
         max-width: 500px;
     }
-    .impacto p{
+
+    .impacto p {
         display: flex;
         max-width: 1500px;
     }
@@ -367,8 +380,8 @@ margin-bottom: 150px;
     .logistica img {
         background-color: #1B8D73;
 
-        
-        
+
+
         width: 90%;
         height: 90%;
     }
