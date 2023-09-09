@@ -2,9 +2,9 @@ import './style.css'
 
 import imgUserLogado from '../../assets/img/userLogado.png'
 import imgSair from '../../assets/img/exit.png'
-import icoMenuDoador from '../../assets/img/Home_menuDoadorICO.svg'
-import icoVisualizarDoador from '../../assets/img/Home_Vizualizar_menuDoadorICO.svg'
-import icoEditarDoador from '../../assets/img/Home_Edit_menuDoadorICO.svg'
+import icoParceiroColetas from '../../assets/img/Ico_Parceiro_Coletas.svg'
+import icoBuscarPubliq from '../../assets/img/Ico_Parceiro_buscar.svg'
+import icoEditarParceiro from '../../assets/img/Ico_Parceiro_editar.svg'
 import imgLogout from '../../assets/img/Home_Logout_menuDoadorICO.svg'
 import imgNotificacao from '../../assets/img/img_Notification_001.png'
 import imgNotificacao2 from '../../assets/img/img_Notification_002.png'
@@ -14,8 +14,7 @@ import icoNotificacao from '../../assets/img/Home_ico_notificacao.svg'
 
 
 
-function DoadorLogado(){
-  
+function ColetorLogado(){
   function abrirFecharNotifiq(){
     let menuNot2 = document.getElementById("menu_notifique2") as HTMLCanvasElement;
     if (window.getComputedStyle(menuNot2).display == 'none'){
@@ -38,7 +37,7 @@ function DoadorLogado(){
     }
   };
     
-  return(
+    return(
         <div className="log_doador" id="log_doador1">
   <div className="grupo_login">
     <div id="menu_login2">
@@ -48,10 +47,10 @@ function DoadorLogado(){
             <img
               id="menu_login_pt1_img"
               src={ imgUserLogado }
-              alt=""
+              alt="Imagem do usuário Logado"
             />
             <div id="text_Login">
-              <h5>Olá Luís,</h5>
+              <h5>Olá ReciclaTudo,</h5>
               <p>Seja bem vindo!</p>
             </div>
           </div>
@@ -64,17 +63,17 @@ function DoadorLogado(){
         <div>
           <div id="menu_login_pt2_Itens">
             <div>
-              <img src={ icoMenuDoador } alt="" />
+              <img src={ icoParceiroColetas } alt="" />
               <a href="../Tela_Quero_Doar_Pt1/index.html">QUERO DOAR</a>
             </div>
             <div>
-              <img src={ icoVisualizarDoador } alt="" />
+              <img src={ icoBuscarPubliq } alt="" />
               <a href="../Tela_Minhas_Doacoes/index.html">
                 VIZUALIAR MINHAS DOAÇÕES
               </a>
             </div>
             <div>
-              <img src= { icoEditarDoador } alt="" />
+              <img src= { icoEditarParceiro } alt="" />
               <a href="../Tela_Editar_Perfil_Doador/index.html">
                 EDITAR PERFIL
               </a>
@@ -91,7 +90,7 @@ function DoadorLogado(){
       <div id="menu_not_pt1">
         <div>
           <h5>NOTIFICAÇÕES</h5>
-          <a href="#"  onClick={ abrirFecharNotifiq }>
+          <a href="#"  onClick={ abrirFecharNotifiq } >
             <img src={ imgSair } alt="" />
           </a>
         </div>
@@ -102,11 +101,9 @@ function DoadorLogado(){
             <div id="menu_not_pt2_Itens">
               <img src={ imgNotificacao } alt="" />
               <div className="conteudo_notifique2">
-                <span>Você tem uma nova doação agendada!</span>
+                <span>Agendamento confirmado!</span>
                 <p>
-                  A <strong>ReciclaTudo</strong> tem interesse em seu material
-                  publicado, clique no botão abaixo para vizualizar o
-                  agendamento e confirmar o horário!
+                  <strong>Luís</strong> confirmou o horário de agendamento da retirada do material. Compareça no dia <strong>15/05/23 às 10:00hrs.</strong> Clique em vizualizar para mais informações.
                 </p>
                 <div className="btn_notifique2">
                   <a href="../Tela_Confirmar_Coleta/index.html">visualisar</a>
@@ -120,13 +117,10 @@ function DoadorLogado(){
             <div id="menu_not_pt2_Itens">
               <img src={ imgNotificacao2 } alt="" />
               <div className="conteudo_notifique2">
-                <span>Agendamento confirmado</span>
-                <p>
-                  Você confirmou o horário de agendamento para o dia{" "}
-                  <strong>15/05/23 às 10:00hrs</strong> com sucesso. A{" "}
-                  <strong>EcoNorte</strong> irá fazer a coleta no dia e horário
-                  agendado.
-                </p>
+              <span>Publicação próximas de você!</span>
+              <p>
+                <strong>Antônio</strong> postou um material de coleta próximo de você. Aproxidamente 0,7Km. Clique em vizualizar para mais informações.
+              </p>
                 <div className="btn_notifique2">
                   <a href="../Tela_Minhas_Doacoes/index.html">visualisar</a>
                 </div>
@@ -138,7 +132,7 @@ function DoadorLogado(){
     </div>
     <a href="#"  onClick={ abrirFechar2 } >
       <img className="imgLogado" src={ icoLogado } alt="Icone de Logado" />
-      <p>Lúis</p>
+      <p>ReciclaTudo</p>
       <img
         id="seta_Baixo"
         src={ icoSetaBaixo }
@@ -154,4 +148,4 @@ function DoadorLogado(){
     )
 }
 
-export default DoadorLogado;
+export default ColetorLogado;

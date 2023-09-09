@@ -12,8 +12,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 
@@ -44,7 +42,9 @@ header nav a{
     position: relative;
 }
 
-
+.div_Logado_E_Menu{
+    display: flex;
+}
 
 .underline:before {
     content: "";
@@ -95,6 +95,7 @@ header nav a{
 
     .menu_barras{
         display: flex;
+        padding-left: 10px;
     }
 
     #menu_links{
@@ -118,6 +119,25 @@ header nav a{
 
     .underline{
         margin: 10px 0 5px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .div_headerPosition {
+        flex-direction: column;
+    }
+
+    .div_headerPosition> img{
+        padding-top: 40px;
+        width: 50%;
+    }
+    .div_Logado_E_Menu{
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        /* padding-bottom: 30px; */
     }
 
 }
