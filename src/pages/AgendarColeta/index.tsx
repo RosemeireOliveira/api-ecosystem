@@ -12,7 +12,7 @@ function AgendarColeta() {
 
     function cadastroAgendamento(event: any) {
         event.preventDefault()
-        console.log(`${data} ${horario} ${comentario} testes ok`)
+        console.log(`${data}, ${horario}, ${comentario} testes ok`)
     }
 
     const [data, setData] = useState<string>("")
