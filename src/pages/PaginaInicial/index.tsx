@@ -34,7 +34,7 @@ function PaginaInicial() {
                 <section className="bannerCarrousel">
                     
                     <Swiper
-                        modules= {[Autoplay, Keyboard]}
+                        modules = {[Autoplay, Keyboard]}
                         spaceBetween={50}
                         slidesPerView={1}
                         loop
