@@ -69,7 +69,7 @@ function Informativo() {
                     <div className="ciclo_logistico wrapper">
                         <h2>CICLO DA LOGÍSTICA REVERSA</h2>
                         <div className="logistica">
-                            <img src={img_ciclo_logistico} />
+                            <img src={img_ciclo_logistico} alt="foto" />
                             <p>
                                 A Logística Reversa é um instrumento de desenvolvimento econômico e
                                 social caracterizado por um conjunto de ações, procedimentos e meios
