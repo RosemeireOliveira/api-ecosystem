@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-import './style.css'
-import DoadorLogado from '../../components/DoadorLogado'
+import './style.css';
+import DoadorLogado from '../../components/DoadorLogado';
 import ColetorLogado from '../ColetorLogado';
 import imgLogo from "../../assets/img/logo_vertical.png";
 
@@ -120,10 +120,11 @@ function Header() {
                     !tamanhoTela  ? 
                         <DoadorLogado />
                         // <ColetorLogado />
+                        // <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a>
                     : 
                         "" 
                     }
-                    {/* <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a> */}
+                    
                     
                 </nav>
             </div>

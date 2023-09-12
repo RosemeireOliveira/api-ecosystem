@@ -1,3 +1,4 @@
+import AsideDoador from '../../components/AsideDoador'
 
 import './style.css'
 
@@ -6,6 +7,7 @@ import imgCard002 from '../../assets/img/img_card_002.png'
 import imgIconeEditar from '../../assets/img/ico_edit.svg'
 import imgIconeVisualizar from '../../assets/img/ico_eye.svg'
 import imgIconeDeletar from '../../assets/img/ico_delete.svg'
+
 
 function MinhasDoacoes() {
 
@@ -18,21 +20,7 @@ function MinhasDoacoes() {
             <h1>página minhas doações ecosystem &amp; recycle</h1>
             <section>
                 <div className="conteudo_doacoes wrapper">
-                    <aside>
-                        <ul>
-                            <li>
-                                <a href="../Tela_Quero_Doar_Pt1/index.html">quero doar</a>
-                            </li>
-                            <li>
-                                <a href="../Tela_Minhas_Doacoes/index.html">
-                                    visualizar minhas doações
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../Tela_Editar_Perfil_Doador/index.html">editar perfil</a>
-                            </li>
-                        </ul>
-                    </aside>
+                    <AsideDoador />
                     <div className="menu_Direito">
                         <div className="title">
                             <h2>minhas doações!</h2>
