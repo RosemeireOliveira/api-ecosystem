@@ -1,5 +1,7 @@
 import './style.css'
-import teste from "./assets/img/cartuchos.png"
+import cartucho from "../../assets/img/cartuchos.png"
+import Aside from "../../components/Aside"
+
 
 function ColetasFinalizadas() {
 
@@ -10,21 +12,7 @@ function ColetasFinalizadas() {
                 <h1>página coletas finalizadas ecosystem &amp; recycle</h1>
                 <section>
                     <div className="conteudo_doacoes wrapper">
-                        <aside>
-                            <ul>
-                                <li>
-                                    <a href="../Tela_Coletas_Agendadas/index.html">coletas agendadas</a>
-                                </li>
-                                <li>
-                                    <a href="../Tela_Buscar_Publicacoes/index.html">
-                                        Buscar por publicações
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../Tela_Editar_Perfil_Coletor/index.html">editar perfil</a>
-                                </li>
-                            </ul>
-                        </aside>
+                        <Aside />
                         <div className="menu_Direito">
                             <div className="title">
                                 <h2>Coletas Agendadas</h2>
@@ -41,7 +29,8 @@ function ColetasFinalizadas() {
                                     <div className="Conteudo">
                                         <div className="nada_consta">
                                             <p>cartuchos usados</p>
-                                            <img src={teste} alt="" />
+                                            <img src={cartucho} alt="" />
+
                                             <p> Data de publicação: 01/04/2023 </p>
                                             <p>Quantidade de iten(s): 20</p>
                                             <p> Responsável: André Martins </p>
@@ -64,11 +53,11 @@ function ColetasFinalizadas() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="btnVoltar">
-                                            <a href="#" onClick={history.back}>
+                                    {/* <div className="btnVoltar">
+                                        <a href="#" onClick={history.back}>
                                             voltar
                                         </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
