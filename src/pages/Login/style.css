@@ -1,0 +1,389 @@
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+
+
+.sessao_formulario_login {
+    display: flex;
+    margin: 50px 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sessao_formulario_login input{
+    padding-left: 10px;
+}
+
+.formulario_login {
+    max-width: 500px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    background-color: var(--cinza);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    margin: 50px 10px;
+}
+
+
+.formulario_login label,
+.formulario_cadastro label {
+    max-width: 350px;
+    width: 68%;
+    height: 10px;
+}
+
+
+
+.formulario_cadastro {
+    max-width: 500px;
+    width: 90%;
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 50px 10px;
+    padding-top: 50px;
+}
+
+.formulario_cadastro h2 {
+    margin-bottom: 25px;
+}
+
+.formulario_botao {
+    max-width: 150px;
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--font1);
+    color: var(--roxo);
+    border: 3px solid var(--roxo);
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.btn_goole {
+    color: #9319CC;
+}
+
+.formulario_login a {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-family: var(--font1);
+    color: var(--roxo);
+    border: 3px solid var(--roxo);
+    border-radius: 35px;
+    margin: 20px 0 40px 0;
+    padding: 10px 30px;
+
+}
+
+.formulario_login a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+.formulario_login h2 {
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    background: var(--verde1);
+}
+
+.div_footerPosition {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--branco);
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+
+.foot_contats img {
+    margin-right: 15px;
+}
+
+.foot_contats div:nth-child(-n+2) {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.foot_menu {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.foot_menu a {
+    color: var(--branco);
+}
+
+
+.foot_menu ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.foot_midiasBoletim span {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.foot_botetim {
+    display: flex;
+    padding: 15px 0;
+}
+
+.foot_botetim input {
+    font-family: var(font--2);
+    font-size: 14px;
+    border: 1px solid #f9f9f9;
+    border-radius: 10px;
+    padding: 4px 40px 4px 10px;
+    margin-right: 15px;
+}
+
+::placeholder {
+    opacity: 60%;
+}
+
+.foot_botetim a {
+    color: var(--branco);
+}
+
+.btn_enviar {
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+    padding: 0 35px;
+
+}
+
+.ico_sociais {
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ico_sociais img {
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+}
+
+
+main input {
+    max-width: 350px;
+    width: 75%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #6c6b6b;
+}
+
+.opcao {
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opcao_doador, .opcao_coletor{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.opcao label {
+    width: 100%;
+    margin-left: 5px;
+}
+
+main input[type="radio"] {
+    width: 20px;
+    height: 18px;
+}
+
+main label {
+    display: flex;
+    font-size: 16px;
+    font-family: var(--font2);
+    text-align: left;
+}
+
+/* ### Seção @Media ### */
+
+@media screen and (max-width: 1250px) {
+    .banner1 {
+        height: 100%;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    .div_banner {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+
+    .div_banner div {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+
+    }
+
+    .div_banner img {
+        max-height: none;
+        width: 100%;
+        max-width: none;
+        height: 50%;
+        padding-bottom: 40px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .div_headerPosition {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_barras {
+        display: flex;
+    }
+
+    #menu_links {
+        display: none;
+        flex-direction: column;
+
+        position: absolute;
+        align-items: center;
+
+        right: 30px;
+        top: 80px;
+        z-index: 2;
+
+        width: 200px;
+        background-color: var(--verde1);
+        padding: 0 0 10px 0;
+
+
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .underline{
+        margin: 10px 0 5px 0;
+    }
+
+
+    .div_footerPosition {
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .div_footerPosition>div {
+        padding: 30px 0;
+    }
+
+
+}
+
+/* @media screen and (max-width: 1010px) {
+
+   
+
+} */
+
+@media screen and (max-width: 812px) {
+    .sessao_formulario_login {
+        margin: 50px 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 580px) {
+    .sessao_formulario_login {
+        margin: 20px 10px;
+    }
+
+    .opcao {
+        width: 70%;
+    }
+
+    .formulario_login a {
+        width: 70%;
+        font-size: 14px;
+        margin: 20px 0 40px 0;
+        padding: 5px 15px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .formulario_botao {
+        min-width: 125px;
+        /* margin-top: 30px; */
+    }
+
+    .formulario_cadastro h2,
+    .formulario_login h2 {
+        padding: 0 7px;
+        text-align: center;
+    }
+
+    .opcao label {
+        width: 100%;
+        height: fit-content;
+        margin-left: 5px;
+        font-size: small;
+    }
+
+  
+    
+    .foot_midiasBoletim{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot_botetim{
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .foot_botetim input {
+        font-size: 14px;
+        padding: 4px 40px 4px 10px;
+        margin: 0 10px 10px 10px;
+        /* width: 90%; */
+    }
+
+    .foot_contats > div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}

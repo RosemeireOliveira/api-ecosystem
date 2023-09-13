@@ -22,6 +22,7 @@ import Duvidas from './pages/Duvidas'
 import EditarPefilColetor from './pages/EditarPefilColetor'
 import EditarPerfilDoador from './pages/EditarPerfilDoador'
 import Informativo from './pages/Informativo'
+import Login from './pages/Login'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -41,7 +42,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/duvidas' element={ <Duvidas /> } />
         <Route path='/editarperfilcoletor' element={ <EditarPefilColetor /> } />
         <Route path='/editarperfildoador' element={ <EditarPerfilDoador /> } /> 
-        <Route path='/informativo' element={ <Informativo /> } /> 
+        <Route path='/informativo' element={ <Informativo /> } />
+        <Route path='/login' element={ <Login /> } /> 
       </Routes>
       <Footer />
     </BrowserRouter>

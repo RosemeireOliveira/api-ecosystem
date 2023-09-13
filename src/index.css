@@ -29,3 +29,7 @@ h1{
   width: 1em;
   overflow: hidden;
 }
+
+h2{
+  font-family: var(--font2);
+}
