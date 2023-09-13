@@ -25,6 +25,7 @@ import Informativo from './pages/Informativo'
 import Login from './pages/Login'
 import NossaHistoria from './pages/NossaHistoria'
 import PaginaInicial from './pages/PaginaInicial'
+import QueroDoarParte1 from './pages/QueroDoarParte1'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -47,6 +48,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/login' element={ <Login /> } />
         <Route path='/nossahistoria' element={ <NossaHistoria /> } />
         <Route path='/' element={ <PaginaInicial /> } /> 
+        <Route path='/querodoarpt1' element={ <QueroDoarParte1 /> } /> 
       </Routes>
       <Footer />
     </BrowserRouter>
