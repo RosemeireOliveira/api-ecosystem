@@ -24,6 +24,7 @@ import EditarPerfilDoador from './pages/EditarPerfilDoador'
 import Informativo from './pages/Informativo'
 import Login from './pages/Login'
 import NossaHistoria from './pages/NossaHistoria'
+import PaginaInicial from './pages/PaginaInicial'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -44,7 +45,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/editarperfildoador' element={ <EditarPerfilDoador /> } /> 
         <Route path='/informativo' element={ <Informativo /> } />
         <Route path='/login' element={ <Login /> } />
-        <Route path='/nossahistoria' element={ <NossaHistoria /> } /> 
+        <Route path='/nossahistoria' element={ <NossaHistoria /> } />
+        <Route path='/' element={ <PaginaInicial /> } /> 
       </Routes>
       <Footer />
     </BrowserRouter>
