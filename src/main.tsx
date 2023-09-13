@@ -26,6 +26,7 @@ import Login from './pages/Login'
 import NossaHistoria from './pages/NossaHistoria'
 import PaginaInicial from './pages/PaginaInicial'
 import QueroDoarParte1 from './pages/QueroDoarParte1'
+import QueroDoarParte2 from './pages/QueroDoarParte2'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -49,6 +50,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/nossahistoria' element={ <NossaHistoria /> } />
         <Route path='/' element={ <PaginaInicial /> } /> 
         <Route path='/querodoarpt1' element={ <QueroDoarParte1 /> } /> 
+        <Route path='/querodoarpt2' element={ <QueroDoarParte2 /> } />
+
       </Routes>
       <Footer />
     </BrowserRouter>
