@@ -1,0 +1,144 @@
+/* Main */
+
+#mainContato section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telaContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.telaContato>h2 {
+    font-family: var(--font1);
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.telaContato>a {
+    text-transform: uppercase;
+    font-family: var(--font2);
+    font-size: 13px;
+    color: #9F2FBB;
+    padding: 5px 50px;
+    border-radius: 25px;
+    border: 4px solid #9F2FBB;
+}
+
+.cardContato {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* background-color: #045328; */
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.cardContato>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    /* background-color: #EAF207; */
+}
+
+.cardContato>form>textarea {
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    font-family: var(--font2);
+    text-indent: 10px;
+    padding-top: 10px;
+    border: 2px solid #d9d9d9;
+    border-radius: 8px;
+}
+
+.cardContato>form>textarea:nth-child(4) {
+    height: 130px;
+}
+
+.mensagemContato {
+    background-color: white;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    box-shadow: 3px 7px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mensagemContato>p {
+    width: 90%;
+    margin-top: 40px;
+    font-family: var(--font2);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: center;
+}
+
+.contatos {
+    font-family: var(--font2);
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-left: -25px;
+
+}
+
+.email {
+    justify-content: flex-start;
+
+}
+
+.email>img {
+    width: 27px;
+    height: 19px;
+    background-color: #000;
+    color: forestgreen;
+    margin-right: 15px;
+}
+
+.whats {
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.whats>img {
+    width: 22px;
+    height: 20px;
+    background-color: #000;
+    margin-right: 19px;
+}
+
+/* Responsividade da página */
+
+@media screen and (max-width: 1506px) {
+    .mensagemContato>p {
+        font-size: 14px;
+    }
+
+    .contatos: teste;
+}
