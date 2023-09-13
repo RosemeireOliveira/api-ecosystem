@@ -1,16 +1,15 @@
-aside ul{
+
+#coletoraside ul {
     list-style-type: none;
     color: black;
 }
 
 /* ####### ESPAÇO ENTRE SEGUNDO E TERCEIRO LI ########## */
-aside li:nth-child(2){
+aside#AsideColetor li:nth-child(2){
     padding: 1rem 0;
 }
 
-
-
-aside a{
+aside#AsideColetor a {
     color: black;
     font-family: var(--font2);
     font-size: 16px;
@@ -20,11 +19,18 @@ aside a{
 }
 
 
+/* ####### Estilização do Elemento selecionado no ASIDE ########## */
+
+aside#AsideColetor li:nth-child(2) a  {
+    color:var(--roxo);
+    padding: 0 15px;
+}
+
 
 /* ####### Estilização do Elemento selecionado no ASIDE ########## */
 
-aside li:nth-child(2) a  {
-    color:var(--roxo);
+aside#AsideColetor li:nth-child(1) a {
+    color: var(--roxo);
     font-weight: 900;
     border: 3px solid var(--roxo);
     border-radius: 10px;
@@ -36,14 +42,14 @@ aside li:nth-child(2) a  {
 
 
 @media screen and (max-width: 1072px) {
-    aside a {
+    aside#AsideColetor a {
         font-size: 13px;
         padding: 0 10px;
     }
 }
 
 @media screen and (max-width: 580px) {
-    aside {
+    aside#AsideColetor {
         grid-column: 1/3;
         grid-row: 1/3;
         justify-self: center;

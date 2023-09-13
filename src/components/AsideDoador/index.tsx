@@ -3,7 +3,7 @@ import './style.css'
 
 function AsideDoador(props:any) {
     return (
-        <aside>
+        <aside id='AsideDoador'>
             <ul>
                 <li  className = { props.idSeletor== 1  ?  "contorno" : "" }>
                     <a href="../Tela_Quero_Doar_Pt1/index.html">quero doar</a>

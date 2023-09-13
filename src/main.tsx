@@ -12,6 +12,8 @@ import './index.css'
 import MinhasDoacoes from './pages/MinhasDoacoes'
 import AgendarColeta from './pages/AgendarColeta'
 import BuscarPublicacoes from './pages/BuscarPublicacoes'
+import ColetasAgendadas from './pages/ColetasAgendadas'
+import ColetasFinalizadas from './pages/ColetasFinalizadas'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -21,6 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/minhasdoacoes' element={ <MinhasDoacoes /> } />
         <Route path='/agendarcoleta' element={ <AgendarColeta/> }/>
         <Route path='/buscarpublicacoes' element={ <BuscarPublicacoes /> } />
+        <Route path='/coletasagendadas' element={ <ColetasAgendadas/> }/>
+        <Route path='/coletasfinalizadas' element={ <ColetasFinalizadas /> } />
       </Routes>
       <Footer />
     </BrowserRouter>
