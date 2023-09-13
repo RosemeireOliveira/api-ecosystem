@@ -20,6 +20,7 @@ import Contato from './pages/Contato'
 import DoacoesFinalizadas from './pages/DoacoesFinalizadas'
 import Duvidas from './pages/Duvidas'
 import EditarPefilColetor from './pages/EditarPefilColetor'
+import EditarPerfilDoador from './pages/EditarPerfilDoador'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -36,7 +37,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/contato' element={ <Contato /> } /> 
         <Route path='/doacoesfinalizadas' element={ <DoacoesFinalizadas /> } />
         <Route path='/duvidas' element={ <Duvidas /> } />
-        <Route path='/editarperfilcoletor' element={ <EditarPefilColetor /> } /> 
+        <Route path='/editarperfilcoletor' element={ <EditarPefilColetor /> } />
+        <Route path='/editarperfildoador' element={ <EditarPerfilDoador /> } /> 
       </Routes>
       <Footer />
     </BrowserRouter>
