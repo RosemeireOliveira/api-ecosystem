@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import './index.css'
 //Importar Pages
 import MinhasDoacoes from './pages/MinhasDoacoes'
+import AgendarColeta from './pages/AgendarColeta'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -17,7 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Header />
       <Routes>
       {/* <Route path='/' element={ <Home /> } /> */}
-        <Route path='/minhasdoacoes' element={ <MinhasDoacoes /> } /> 
+        <Route path='/minhasdoacoes' element={ <MinhasDoacoes /> } />
+        <Route path='agendarColeta' element={ <AgendarColeta/> }/>
       </Routes>
       <Footer />
     </BrowserRouter>
