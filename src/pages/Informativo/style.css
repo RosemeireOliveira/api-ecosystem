@@ -74,7 +74,11 @@ h2 {
     /* width: 100%; */
     display: flex;
     justify-content: space-around;
+    /* background-color: crimson; */
 }
+
+
+
 
 .ciclo_logistico h2 {
     text-align: center;
@@ -326,6 +330,18 @@ p {
         max-width: 500px;
     }
 
+    .logistica img {
+        max-width: 70%;
+
+
+
+    }
+    
+    .ciclo_logistico p {
+        max-width: 70%;
+    }
+
+
     .tabela_periodica {
         display: flex;
         justify-content: center;
@@ -385,6 +401,16 @@ p {
 
         width: 90%;
         height: 90%;
+    }
+
+
+
+    .logistica {
+        
+        /* max-width: 70%; */
+        
+    
+    
     }
 
     .div_banner img {

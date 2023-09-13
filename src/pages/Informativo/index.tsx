@@ -111,6 +111,8 @@ function Informativo() {
                             oferecido a vendedores com um potencial de reutilização de produtos de
                             cerca de 40% do volume total de itens trocados ou devolvidos. Desde seu
                             lançamento no Brasil,
+
+
                         </p>
                         <h2>ELEMENTOS QUÍMICOS QUE PODEM CAUSAR MAL AO MEIO AMBIENTE</h2>
                     </div>
@@ -139,7 +141,15 @@ function Informativo() {
                         efeito cancerígeno. Zinco – entra na cadeira alimentar afetando
                         principalmente os peixes e as algas. Prata – tem efeito cumulativo; 10 g
                         de nitrato de prata é letal ao homem.
+
+                        {/* <span id="tresPontos">...</span><span id="mostrarMais"> */}
+
+
                     </p>
+
+
+                    {/* <button onClick="leiaMais()" id="btnLeiaMais" class="btnLeiaMais">Leia Mais</button> */}
+
 
                     {/* linha de separacao HR <hr /> */}
 
@@ -185,8 +195,13 @@ function Informativo() {
                         Entre os países analisados, apenas Costa Rica, Equador e Peru tem legislação específica sobre o descarte de materiais eletrônicos. A Unido faz um apelo às nações latino-americanas para introduzirem leis obrigando o manejo sustentável do lixo eletrônico.
 
 
+                        {/* <span id="tresPontos">...</span><span id="mostrarMais"> */}
+
 
                     </p>
+
+                    {/* <button onClick="leiaMais()" id="btnLeiaMais" class="btnLeiaMais">Leia Mais</button> */}
+
 
                 </section>
             </main>
