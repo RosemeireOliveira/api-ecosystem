@@ -17,6 +17,7 @@ import ColetasFinalizadas from './pages/ColetasFinalizadas'
 import ColetasConfirmada from './pages/ColetasConfirmada'
 import ConfirmarColeta from './pages/ConfirmarColeta'
 import Contato from './pages/Contato'
+import DoacoesFinalizadas from './pages/DoacoesFinalizadas'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -31,6 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/coletasconfirmada' element={ <ColetasConfirmada /> } />
         <Route path='/confirmarcoleta' element={ <ConfirmarColeta /> } />
         <Route path='/contato' element={ <Contato /> } /> 
+        <Route path='/doacoesfinalizadas' element={ <DoacoesFinalizadas /> } />
       </Routes>
       <Footer />
     </BrowserRouter>
