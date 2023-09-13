@@ -7,12 +7,10 @@
 
 
 .conteudoPublicacoes{
-    width: 70%;
-    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* background-color: aqua; */
+    align-items: center
 }
 .headerPublicacoes{
     display: flex;
@@ -32,7 +30,6 @@
 }
 .containerCard{
     width: 90%;
-    height: 80%;
     border: 1px solid rgba(156, 156, 156, 0.25);
     border-radius: 15px;
     display: flex;
