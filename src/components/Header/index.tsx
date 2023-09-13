@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
 
 import './style.css';
 import DoadorLogado from '../../components/DoadorLogado';
@@ -108,12 +109,18 @@ function Header() {
                 }
                 
                 <nav id="menu_links">
-                    <a href="../Tela_Home/index.html" className="underline">página inicial</a>
-                    <a href="../Tela_Nossa_Historia/index.html" className="underline">nossa história</a>
-                    <a href="../TelaInformativo/index.html" className="underline">informativo</a>
-                    <a href="../TelaServicos/index.html" className="underline">serviços</a>
-                    <a href="../Tela_Duvidas/index.html" className="underline">dúvidas</a>
-                    <a href="../Tela_Contato/index.html" className="underline">contato</a>
+                    {/* <a href="../Tela_Home/index.html" className="underline">página inicial</a> */}
+                    <Link to="/" className="underline">página inicial</Link>
+                    {/* <a href="../Tela_Nossa_Historia/index.html" className="underline">nossa história</a> */}
+                    <Link to="/nossahistoria" className="underline">nossa história</Link>
+                    {/* <a href="../TelaInformativo/index.html" className="underline">informativo</a> */}
+                    <Link to="/informativo" className="underline">informativo</Link>
+                    {/* <a href="../TelaServicos/index.html" className="underline">serviços</a> */}
+                    <Link to="/servicos" className="underline">serviços</Link>
+                    {/* <a href="../Tela_Duvidas/index.html" className="underline">dúvidas</a> */}
+                    <Link to="/duvidas" className="underline">dúvidas</Link>
+                    {/* <a href="../Tela_Contato/index.html" className="underline">contato</a> */}
+                    <Link to="/contato" className="underline">contatos</Link>
 
                     {/* Se o tamanho da tela for grande => renderiza o Doador logado no navMenu */}
                     { 
