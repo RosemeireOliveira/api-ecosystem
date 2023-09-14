@@ -1,6 +1,6 @@
 /* ####### Estilização do Elemento selecionado no ASIDE ########## */
 
-.contorno a  {
+#AsideDoador .contorno a  {
     color:var(--roxo);
     font-weight: 900;
     border: 3px solid var(--roxo);

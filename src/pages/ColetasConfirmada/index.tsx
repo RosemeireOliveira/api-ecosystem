@@ -14,7 +14,7 @@ function ColetasConfirmada() {
       <h1>página coletas confirmadas ecosystem &amp; recycle</h1>
       <section>
         <div className="conteudo_doacoes wrapper">
-          <Aside />
+          <Aside idSeletor={2}/>
 
           <div className="menu_Direito">
             <div className="title">

@@ -15,7 +15,7 @@ function EditarPefilColetor() {
                 <h1>página editar perfil do coletor ecosystem &amp; recycle</h1>
                 <section>
                     <div className="conteudo_doacoes wrapper">
-                        <Aside />
+                        <Aside idSeletor={3}/>
                         <div className="menu_Direito">
                             <div className="title">
                                 <h2>Editar Perfil</h2>

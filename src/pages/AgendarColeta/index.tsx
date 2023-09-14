@@ -24,7 +24,7 @@ function AgendarColeta() {
             <h1>página agendar coleta ecosystem &amp; recycle</h1>
             <section>
                 <div className="conteudo_doacoes wrapper">
-                    < Aside />
+                    <Aside idSeletor={2}/>
                     <div className="conteudoPublicacoes">
                         <div className="headerPublicacoes">
                             <h2>Agendar Coleta</h2>
