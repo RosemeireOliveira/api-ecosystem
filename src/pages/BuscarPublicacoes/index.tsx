@@ -3,6 +3,7 @@ import image12 from "../../assets/img/image 12.png"
 import image8 from "../../assets/img/image 8.png"
 import image9 from "../../assets/img/image 9.png"
 import image15 from "../../assets/img/image 15.png"
+import Aside from '../../components/Aside'
 
 function BuscarPublicacoes() {
 
@@ -13,21 +14,7 @@ function BuscarPublicacoes() {
                 <h1>página buscar por publicações ecosystem &amp; recycle</h1>
                 <section>
                     <div className="conteudo_doacoes wrapper">
-                        <aside>
-                            <ul>
-                                <li>
-                                    <a href="../Tela_Coletas_Agendadas/index.html">coletas agendadas</a>
-                                </li>
-                                <li>
-                                    <a href="../Tela_Buscar_Publicacoes/index.html">
-                                        Buscar por publicações
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../Tela_Editar_Perfil_Coletor/index.html">editar perfil</a>
-                                </li>
-                            </ul>
-                        </aside>
+                        < Aside />
                         <div className="menu_Direito">
                             <div className="title">
                                 <h2>Buscar por Publicações</h2>

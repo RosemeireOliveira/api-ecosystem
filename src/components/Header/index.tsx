@@ -125,9 +125,9 @@ function Header() {
                     {/* Se o tamanho da tela for grande => renderiza o Doador logado no navMenu */}
                     { 
                     !tamanhoTela  ? 
-                        <DoadorLogado />
+                        // <DoadorLogado />
                         // <ColetorLogado />
-                        // <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a>
+                        <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a>
                     : 
                         "" 
                     }
