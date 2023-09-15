@@ -1,0 +1,67 @@
+#mainServicos .tituloCarrosel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#mainServicos .subtitulo1 {
+    font-family: var(--font1);
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-style: normal;
+    line-height: normal;
+
+}
+#mainServicos h2{
+    font-family: var(--font1);
+    font-size: 40px;
+    padding: 100px;
+}    
+#mainServicos .icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#mainServicos .subtitulo2 {
+    font-family: var(--font1);
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+#mainServicos .subtitulo3 {
+    font-family: var(--font1);
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+
+
+#mainServicos .texto1 {
+    font-family: var(--font2);
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+#mainServicos .texto2 {
+    font-family: var(--font2);
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+#mainServicos .texto3 {
+    font-family: var(--font2);
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 120px;
+}
+
+#mainServicos .subtitulo1 .texto1 {
+    display: flex;
+    text-align: center;
+}
