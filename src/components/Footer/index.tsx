@@ -1,5 +1,7 @@
 import './style.css'
 
+import { Link } from 'react-router-dom';
+
 import icoEmail from "../../assets/img/icone_email_footer.png";
 import icoWhats from "../../assets/img/icone_whats_footer.png";
 import icoInstagran from "../../assets/img/icone_instagran_footer.png";
@@ -31,24 +33,12 @@ function Footer() {
         <div className="foot_menu">
           <span>menu</span>
           <ul>
-            <a href="../Tela_Home/index.html">
-              <li>página inicial</li>
-            </a>
-            <a href="../Tela_Nossa_Historia/index.html">
-              <li>nossa história</li>
-            </a>
-            <a href="../TelaInformativo/index.html">
-              <li>informativo</li>
-            </a>
-            <a href="../TelaServicos/index.html">
-              <li>serviços</li>
-            </a>
-            <a href="../Tela_Duvidas/index.html">
-              <li>dúvidas</li>
-            </a>
-            <a href="../Tela_Contato/index.html">
-              <li>contato</li>
-            </a>
+            <Link to="/"><li>página inicial</li></Link>
+            <Link to="/nossahistoria"><li>nossa historia</li></Link>
+            <Link to="/informativo"><li>informativo</li></Link>
+            <Link to="/servicos"><li>serviços</li></Link>
+            <Link to="/duvidas"><li>dúvidas</li></Link>
+            <Link to="/contato"><li>contato</li></Link>
           </ul>
         </div>
         <div className="foot_midiasBoletim">
