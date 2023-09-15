@@ -2,6 +2,7 @@
 import './style.css'
 import image from "../../assets/img/image 12.png"
 
+
 export default function CardAgendarColeta(props:any) {
 
     return (

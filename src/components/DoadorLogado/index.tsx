@@ -11,7 +11,7 @@ import imgNotificacao2 from '../../assets/img/img_Notification_002.png'
 import icoLogado from '../../assets/img/Home_ico_User.svg'
 import icoSetaBaixo from '../../assets/img/Home_ico_setaBaixo.svg'
 import icoNotificacao from '../../assets/img/Home_ico_notificacao.svg'
-
+import { Link } from "react-router-dom";
 
 
 function DoadorLogado(){
@@ -65,7 +65,8 @@ function DoadorLogado(){
           <div id="menu_login_pt2_Itens">
             <div>
               <img src={ icoMenuDoador } alt="" />
-              <a href="../Tela_Quero_Doar_Pt1/index.html">QUERO DOAR</a>
+              {/* <a href="../Tela_Quero_Doar_Pt1/index.html">QUERO DOAR</a> */}
+              <Link to="/querodoarpt1">QUERO DOAR</Link>
             </div>
             <div>
               <img src={ icoVisualizarDoador } alt="" />

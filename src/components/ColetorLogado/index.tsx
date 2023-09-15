@@ -11,6 +11,7 @@ import imgNotificacao2 from '../../assets/img/img_Notification_002.png'
 import icoLogado from '../../assets/img/Home_ico_User.svg'
 import icoSetaBaixo from '../../assets/img/Home_ico_setaBaixo.svg'
 import icoNotificacao from '../../assets/img/Home_ico_notificacao.svg'
+import { Link } from "react-router-dom";
 
 
 
@@ -64,24 +65,30 @@ function ColetorLogado(){
           <div id="menu_login_pt2_Itens">
             <div>
               <img src={ icoParceiroColetas } alt="" />
-              <a href="../Tela_Quero_Doar_Pt1/index.html">QUERO DOAR</a>
+              {/* <a href="../Tela_Quero_Doar_Pt1/index.html">QUERO DOAR</a> */}
+              <Link to="/buscarpublicacoes">QUERO COLETAR</Link>
             </div>
             <div>
               <img src={ icoBuscarPubliq } alt="" />
-              <a href="../Tela_Minhas_Doacoes/index.html">
-                VIZUALIAR MINHAS DOAÇÕES
-              </a>
+              {/* <a href="../Tela_Minhas_Doacoes/index.html">
+                VIZUALIZAR MINHAS DOAÇÕES
+              </a> */}
+              <Link to="/minhasdoacoes">VIZUALIZAR MINHAS DOAÇÕES</Link>
             </div>
             <div>
               <img src= { icoEditarParceiro } alt="" />
-              <a href="../Tela_Editar_Perfil_Doador/index.html">
-                EDITAR PERFIL
-              </a>
+              {/* <a href="../Tela_Editar_Perfil_Coletor/index.html"> */}
+                {/* EDITAR PERFIL */}
+              {/* </a> */}
+              <Link to="/editarperfilcoletor">EDITAR PERFIL</Link>
             </div>
           </div>
           <div id="menu_login_pt2_Itens2">
             <img src= { imgLogout } alt="" />
-            <a href="../Tela_Login_Doador/index.html">SAIR</a>
+            <a href="../Tela_Login_Doador/index.html">SAIR</a> 
+
+            {/* fazer uma validacao caminho logalt indicando caminho */}
+            {/* <Link to="/login">SAIR</Link> */}
           </div>
         </div>
       </div>
@@ -106,7 +113,8 @@ function ColetorLogado(){
                   <strong>Luís</strong> confirmou o horário de agendamento da retirada do material. Compareça no dia <strong>15/05/23 às 10:00hrs.</strong> Clique em vizualizar para mais informações.
                 </p>
                 <div className="btn_notifique2">
-                  <a href="../Tela_Confirmar_Coleta/index.html">visualisar</a>
+                  {/* <a href="../Tela_Confirmar_Coleta/index.html">visualisar</a> */}
+                  <Link to="/coletasagendadas">visualisar</Link>
                 </div>
               </div>
             </div>
@@ -122,7 +130,8 @@ function ColetorLogado(){
                 <strong>Antônio</strong> postou um material de coleta próximo de você. Aproxidamente 0,7Km. Clique em vizualizar para mais informações.
               </p>
                 <div className="btn_notifique2">
-                  <a href="../Tela_Minhas_Doacoes/index.html">visualisar</a>
+                  {/* <a href="../Tela_Minhas_Doacoes/index.html">visualisar</a> */}
+                  <Link to="/buscarpublicacoes">visualisar</Link>
                 </div>
               </div>
             </div>
