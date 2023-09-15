@@ -127,7 +127,8 @@ function Header() {
                     !tamanhoTela  ? 
                         // <DoadorLogado />
                         // <ColetorLogado />
-                        <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a>
+                        // <a href="../Tela_Login_Doador/index.html" className="btn_entrar">entrar</a>
+                        <Link to="/login" className="btn_entrar">entrar</Link>
                     : 
                         "" 
                     }
