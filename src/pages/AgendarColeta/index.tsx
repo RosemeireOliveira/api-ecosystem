@@ -8,6 +8,8 @@ import CardAgendarColeta from '../../components/CardAgendarColeta';
 
 
 
+
+
 function AgendarColeta() {
 
     function cadastroAgendamento(event: any) {
@@ -66,7 +68,9 @@ function AgendarColeta() {
                                     <input type="submit" value="cadastrar" />
                                 </div>
                             </form>
-                            <a href="../Tela_Coletas_Agendadas/index.html">Agendar</a>
+                            {/* <a href="../Tela_Coletas_Agendadas/index.html">Agendar</a> */}
+
+                            <Link to="/coletasagendadas">Agendar</Link>
 
                         </div>
                     </div>
