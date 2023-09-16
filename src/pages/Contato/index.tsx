@@ -1,6 +1,8 @@
 import './style.css'
 import iconeEmail from "../../assets/img/icone_email_footer.png"
 import iconeWhatsApp from "../../assets/img/icone_whats_footer.png"
+import { Link } from "react-router-dom";
+
 
 function Contato() {
 
@@ -8,6 +10,10 @@ function Contato() {
     // const [email, setEmail] = useState<string>("")
     // const [telefone, setTelefone] = useState<string>("")
     // const [assunto, setAssunto] = useState<string>("")
+
+    function msgFormularioContato(){
+        alert('Sua mensagem foi enviada com sucesso.');
+      };
 
     return (
         <>
@@ -44,7 +50,9 @@ function Contato() {
                                 </div>
                             </div>
                         </div>
-                        <a href="#">Enviar</a>
+                        {/* <a href="#">Enviar</a> */}
+                        <Link to="/contato" onClick={ msgFormularioContato }>Enviar</Link>
+
                     </div>
                 </section>
             </main>

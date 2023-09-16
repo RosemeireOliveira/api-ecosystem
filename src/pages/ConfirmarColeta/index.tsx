@@ -97,12 +97,15 @@ function ConfirmarColeta (){
                     </div>
                   </div>
                   <div className="btnVoltar">
-                    <a
+                    {/* <a
                       href="../Tela_Minhas_Doacoes/index.html"
                       onClick={ msgConfirmarColeta }
                     >
                       confirmar
-                    </a>
+                    </a> */}
+                    <Link to="/minhasdoacoes" onClick={ msgConfirmarColeta }>confirmar</Link>
+
+
                     <a href="#" onClick={ history.back }>
                       cancelar
                     </a>
