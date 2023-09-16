@@ -4,6 +4,8 @@ import image8 from "../../assets/img/image 8.png"
 import image9 from "../../assets/img/image 9.png"
 import image15 from "../../assets/img/image 15.png"
 import Aside from '../../components/Aside'
+import { Link } from "react-router-dom";
+
 
 function BuscarPublicacoes() {
 
@@ -39,7 +41,8 @@ function BuscarPublicacoes() {
                                             </div>
                                             <p>sbc - sp</p>
                                         </div>
-                                        <a href="../Tela_Agendar_Coleta/index.html">Agendar</a>
+                                        {/* <a href="../Tela_Agendar_Coleta/index.html">Agendar</a> */}
+                                        <Link to="/agendarcoleta">Agendar</Link>
                                     </div>
                                 </div>
                                 <div id="dois" className="cardAgendar">
@@ -60,7 +63,9 @@ function BuscarPublicacoes() {
                                             </div>
                                             <p>sbc - sp</p>
                                         </div>
-                                        <a href="../Tela_Agendar_Coleta/index.html">Agendar</a>
+                                        {/* <a href="../Tela_Agendar_Coleta/index.html">Agendar</a> */}
+                                        <Link to="/agendarcoleta">Agendar</Link>
+                                        
                                     </div>
                                 </div>
                                 <div id="tres" className="cardAgendar">
@@ -80,7 +85,8 @@ function BuscarPublicacoes() {
                                             </div>
                                             <p>diadema - sp</p>
                                         </div>
-                                        <a href="../Tela_Agendar_Coleta/index.html">Agendar</a>
+                                        {/* <a href="../Tela_Agendar_Coleta/index.html">Agendar</a> */}
+                                        <Link to="/agendarcoleta">Agendar</Link>
                                     </div>
                                 </div>
                                 <div id="quatro" className="cardAgendar">
@@ -101,7 +107,8 @@ function BuscarPublicacoes() {
                                             </div>
                                             <p>diadema - sp</p>
                                         </div>
-                                        <a href="../Tela_Agendar_Coleta/index.html">Agendar</a>
+                                        {/* <a href="../Tela_Agendar_Coleta/index.html">Agendar</a> */}
+                                        <Link to="/agendarcoleta">Agendar</Link>
                                     </div>
                                 </div>
                             </div>

@@ -1,8 +1,8 @@
 import AsideDoador from '../../components/AsideDoador'
-
 import './style.css'
-
 import imgCelAntigos from '../../assets/img/img_001png.png'
+import { Link } from "react-router-dom";
+
 
 
 function ConfirmarColeta (){

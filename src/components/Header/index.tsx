@@ -64,6 +64,7 @@ function Header() {
                         <div className='div_Logado_E_Menu'>
                             <DoadorLogado />
                             {/* <ColetorLogado /> */}
+                            {/* <Link to="/login" className="btn_entrar">entrar</Link> */}
                             <a
                                 onClick={ mostrarMenu }
                                 className="menu_barras"
