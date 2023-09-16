@@ -1,6 +1,7 @@
 import './style.css'
 
 import AsideDoador from '../../components/AsideDoador'
+import { Link } from "react-router-dom";
 
 function EditarPerfilDoador(){
 
@@ -104,10 +105,13 @@ function EditarPerfilDoador(){
                                             </div>
 
                                             <div className="btnVoltar">
-                                                <a href="#" onClick={msgSalvarPerfil}>Salvar</a>
-                                                <a href="#" onClick={historyBack}>Cancelar</a>
-                                            </div>
+                                                {/* <a href="#" onClick={msgSalvarPerfil}>Salvar</a> */}
+                                                <Link to="/#" onClick={msgSalvarPerfil}>Salvar</Link>
 
+
+                                                {/* <a href="#" onClick={historyBack}>Cancelar</a> */}
+                                                <Link to="/#" onClick={historyBack}>Cancelar</Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
