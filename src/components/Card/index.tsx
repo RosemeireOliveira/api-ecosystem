@@ -1,18 +1,20 @@
 import './style.css'
-import img_card_001 from '../../assets/img/img_card_001.png';
+
 import ico_edit from '../../assets/img/ico_edit.svg';
 import ico_eye from '../../assets/img/ico_eye.svg'
 import ico_delete from '../../assets/img/ico_delete.svg'
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Card(props: any) {
-
+    function msgDeletarColeta() {
+        alert('A doação foi cancelada! O doador irá ser notificado');
+    };
     return (
         <div className="cards">
             <h4>{props.tituloCard ? props.tituloCard : "Título"}</h4>
             {/* Arrumar rota de imagem */}
             <img
-                src={img_card_001}
+                src={ props.imgBackground }
                 alt="Imagem com sucata de aparelhos celulares gsm"
             />
             <div className="WrapperCard">
@@ -41,24 +43,18 @@ export default function Card(props: any) {
                 {/* Confirmar os direcionamentos abaixo e a forma de exibição */}
 
                 <div className="iconesCards">
-                    <a href="../Tela_Agendar_Coleta/index.html">
-                        <img src={ico_edit}
-                            alt="Icone de Editar" />
-                    </a>
-                    {/* <Link to="/"></Link> */}
-
-
-
-                    <a href="../Tela_Agendar_Coleta/index.html">
+                    <Link to="/agendarcoleta">
+                        <img src={ico_edit} alt="Icone de Editar" />
+                    </Link>
+                    <Link to="/agendarcoleta">
                         <img
                             src={ico_eye}
                             alt="Icone de visualizar"
                         />
-                    </a>
-
-                    <a href="#" >
+                    </Link>
+                    <a href="#" onClick= { msgDeletarColeta }>
                         <img
-                            src={ico_delete}
+                            src= { ico_delete }
                             alt="Icone de Deletar"
                         />
                     </a>
