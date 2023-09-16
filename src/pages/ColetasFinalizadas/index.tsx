@@ -1,6 +1,7 @@
 import './style.css'
 import cartucho from "../../assets/img/cartuchos.png"
 import Aside from "../../components/Aside"
+import { Link } from "react-router-dom";
 
 
 function ColetasFinalizadas() {
@@ -19,10 +20,15 @@ function ColetasFinalizadas() {
                                 <p>Visualize todas as suas coletas agendadas</p>
                             </div>
                             <div className="link_menu_direito">
-                                <a href="../Tela_Coletas_Agendadas/index.html">Coletas Ativas</a>
-                                <a href="../Tela_Coletas_Finalizadas/index.html">
-                                    Coletas Finalizadas
-                                </a>
+                                {/* <a href="../Tela_Coletas_Agendadas/index.html">Coletas Ativas</a> */}
+                                <Link to="/coletasagendadas">Coletas Ativas</Link>
+
+                                {/* <a href="../Tela_Coletas_Finalizadas/index.html"> */}
+                                    {/* Coletas Finalizadas */}
+                                {/* </a> */}
+                                <Link to="/coletasfinalizadas">Coletas Finalizadas</Link>
+
+
                             </div>
                             <div>
                                 <div className="margem_Conteudo">

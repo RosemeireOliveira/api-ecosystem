@@ -4,6 +4,8 @@ import './style.css'
 
 import img001 from '../../assets/img/img_001png.png'
 
+
+
 function ColetasConfirmada() {
   function msgRetirarMaterial() {
     alert('Confira todo o material e Confirme a retirada');
