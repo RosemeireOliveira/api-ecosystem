@@ -75,7 +75,7 @@ function NossaHistoria (){
         />
         <p>
           Acelerar o desenvolvimento ambiental, sustentabilidade, economia
-          circular, descarte correto, saúde da população.
+          circular, descarte correto, saúde da população é nossa prioridade.
         </p>
       </div>
     </div>
