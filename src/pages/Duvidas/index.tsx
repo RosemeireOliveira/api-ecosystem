@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './style.css'
 import CardDuvidas from '../../components/CardDuvidas';
 
+
 function Duvidas() {
     const [perguntas, setPerguntas] = useState<any[]>([
         {

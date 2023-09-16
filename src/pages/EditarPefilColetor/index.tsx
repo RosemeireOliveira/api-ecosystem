@@ -1,13 +1,14 @@
 import './style.css'
 
 import Aside from '../../components/Aside'
+import { Link } from "react-router-dom";
 
 function EditarPefilColetor() {
 
-    function msgSalvarPerfil(){
+    function msgSalvarPerfil() {
         alert('Dados Cadastrado com Sucesso');
-      }
-      
+    }
+
 
     return (
         <>
@@ -15,7 +16,7 @@ function EditarPefilColetor() {
                 <h1>página editar perfil do coletor ecosystem &amp; recycle</h1>
                 <section>
                     <div className="conteudo_doacoes wrapper">
-                        <Aside idSeletor={3}/>
+                        <Aside idSeletor={3} />
                         <div className="menu_Direito">
                             <div className="title">
                                 <h2>Editar Perfil</h2>
@@ -105,17 +106,22 @@ function EditarPefilColetor() {
                                                 </div>
                                                 <label>CEP:</label>
                                                 <label>Ex: 12345-678</label>
-                                                <input className="input" type="text" id="cep" required pattern=""/>
+                                                <input className="input" type="text" id="cep" required pattern="" />
 
                                             </form>
                                         </div>
                                         <div className="btnVoltar">
-                                            <a href="#" onClick={msgSalvarPerfil}>
+                                            {/* <a href="#" onClick={msgSalvarPerfil}>
                                                 Salvar
-                                            </a>
-                                            <a href="#" onClick={history.back}>
+                                            </a> */}
+                                            <Link to="/#" onClick={msgSalvarPerfil}>Salvar</Link>
+
+                                            {/* <a href="#" onClick={history.back}>
                                                 Cancelar
-                                            </a>
+                                            </a> */}
+                                            <Link to="/#" onClick={history.back}>Cancelar</Link>
+
+
                                         </div>
                                     </div>
                                 </div>
