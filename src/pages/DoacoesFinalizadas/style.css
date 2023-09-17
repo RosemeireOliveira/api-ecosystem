@@ -16,17 +16,17 @@
 }
 
 
-.title{
+#mainDoacoesFinalizadas .title{
     padding-bottom: 40px;
 }
 
-.title h2{
+#mainDoacoesFinalizadas .title h2{
     font-family: var(--font2);
     font-size: 2rem;
     text-transform: capitalize;
 }
 
-.title p{
+#mainDoacoesFinalizadas .title p{
     font-family: var(--font2);
     font-size: 1rem;
     color: var(--cinza);
@@ -62,7 +62,7 @@
 }
 
 
-.historic_cards{
+#mainDoacoesFinalizadas .historic_cards{
     border: 2px solid rgb(156, 156, 156, 0.7);
     border-radius: 20px;
     padding: 3rem 2rem;
@@ -83,7 +83,7 @@
     padding: 200px 100px 60px 100px;
 }
 
-.imgCadeado{
+#mainDoacoesFinalizadas .imgCadeado{
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
@@ -102,23 +102,23 @@
     }
 
 
-    .title{
+    #mainDoacoesFinalizadas .title{
         padding-bottom: 30px;
     }
     
-    .title h2{
+    #mainDoacoesFinalizadas .title h2{
         font-size: 1.6rem;
     }
     
-    .title p{
+    #mainDoacoesFinalizadas  .title p{
         font-size: 0.8rem;
     }
 
-    .links_pags a{
+    #mainDoacoesFinalizadas .links_pags a{
         font-size: 17px;
     }
     
-    .links_pags span{
+    #mainDoacoesFinalizadas .links_pags span{
         font-size: 19px;
     }
 }
@@ -147,7 +147,7 @@
         padding: 1px 4px;
     }
     
-    .wrapper{
+    #mainDoacoesFinalizadas .wrapper{
         width: 95%;
     }
 
@@ -156,7 +156,7 @@
 
 @media screen and (max-width: 580px) {
 
-    .logoImg{
+    #mainDoacoesFinalizadas .logoImg{
         width: 90%;
         height: 90%;
     }
@@ -175,16 +175,16 @@
         align-items: center;
     }
 
-    .links_pags span{
+    #mainDoacoesFinalizadas .links_pags span{
         padding: 0 5px;
     }
 
-    .title{
+    #mainDoacoesFinalizadas .title{
         padding-top: 25px;
         text-align: center;
     }
 
-    .links_pags{
+    #mainDoacoesFinalizadas .links_pags{
         display: flex;
         justify-content: center;
     }

@@ -22,7 +22,7 @@ function AgendarColeta() {
     const [comentario, setComentario] = useState<string>("")
 
     return (
-        <main>
+        <main id='mainAgendarColeta'>
             <h1>página agendar coleta ecosystem &amp; recycle</h1>
             <section>
                 <div className="conteudo_doacoes wrapper">

@@ -9,7 +9,7 @@ function ColetasFinalizadas() {
 
     return (
         <>
-            <main>
+            <main id='mainColetasFinalizadas'>
                 <h1>página coletas finalizadas ecosystem &amp; recycle</h1>
                 <section>
                     <div className="conteudo_doacoes wrapper">

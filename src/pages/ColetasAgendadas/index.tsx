@@ -25,7 +25,7 @@ function AgendarColeta() {
 
     return (
         <>
-            <main>
+            <main id='mainColetasAgendadas'>
                 <h1>página coletas agendadas ecosystem &amp; recycle</h1>
                 <section>
                     <div className="conteudo_doacoes wrapper">

@@ -40,6 +40,7 @@ header nav a{
     font-weight: bolder;
     text-transform: uppercase;
     position: relative;
+    transition: .35s;
 }
 
 .div_Logado_E_Menu{
@@ -76,9 +77,10 @@ header nav a{
     background-color: var(--verde1);
 }
 
-.btn_entrar:hover, .btn_enviar:hover, .btn_cadastrar:hover{
+.btn_entrar:hover, .btn_cadastrar:hover{
     background-color: #EAF207;
     color: black;
+    transform: scale(1.05);
 }
 
 

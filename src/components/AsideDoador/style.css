@@ -10,9 +10,22 @@
 }
 
 
+#AsideDoador{
+    transition: .35s;
+}
+
+#AsideDoador ul:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+#AsideDoador ul:hover{
+    transform: scale(1.1);
+}
 aside#AsideDoador ul{
     list-style-type: none;
     color: black;
+    
 }
 
 /* ####### ESPAÇO ENTRE SEGUNDO E TERCEIRO LI ########## */

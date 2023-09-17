@@ -52,13 +52,13 @@ function Footer() {
             </a>
           </div>
           <div className="ico_sociais">
-            <a href="#">
+            <a href="https://www.instagram.com/">
               <img
                 src={icoInstagran}
                 alt="Icone do Instagran"
               />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/">
               <img src={icoFacebook} alt="Icone do Facebook" />
             </a>
             <a href="#">

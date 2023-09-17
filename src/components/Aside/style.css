@@ -9,10 +9,22 @@
     background: rgba(159, 47, 187, 0.30);
 }
 
+#AsideColetor{
+    transition: .35s;
+}
 
 aside#AsideColetor ul {
     list-style-type: none;
     color: black;
+}
+
+#AsideColetor ul:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+#AsideColetor ul:hover{
+    transform: scale(1.1);
 }
 
 /* ####### ESPAÇO ENTRE SEGUNDO E TERCEIRO LI ########## */

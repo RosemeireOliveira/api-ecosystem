@@ -17,13 +17,13 @@
     padding-bottom: 40px;
 }
 
-.title h2{
+#mainQueroDoarParte1 .title h2{
     font-family: var(--font2);
     font-size: 2rem;
     text-transform: capitalize;
 }
 
-.title p{
+#mainQueroDoarParte1 .title p{
     font-family: var(--font2);
     font-size: 1rem;
     color: var(--cinza);

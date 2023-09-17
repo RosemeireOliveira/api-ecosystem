@@ -16,7 +16,7 @@ function MinhasDoacoes() {
     };
 
     return (
-        <main>
+        <main id='mainMinhasDoacoes'>
             <h1>página minhas doações ecosystem &amp; recycle</h1>
             <section>
                 <div className="conteudo_doacoes wrapper">

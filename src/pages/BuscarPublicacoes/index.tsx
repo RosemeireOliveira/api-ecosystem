@@ -12,7 +12,7 @@ function BuscarPublicacoes() {
 
     return (
         <>
-            <main>
+            <main id='mainBuscarPublicacoes'>
                 <h1>página buscar por publicações ecosystem &amp; recycle</h1>
                 <section>
                     <div className="conteudo_doacoes wrapper">

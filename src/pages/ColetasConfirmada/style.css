@@ -1,35 +1,35 @@
-.conteudo_doacoes{
+#mainColetasConfirmada .conteudo_doacoes{
     display: grid;
     column-gap: 3rem;
     grid-template-columns: minmax(238px,0.25fr) 1fr;
     padding: 60px 0;
 }
 
-.menu_Direito{
+#mainColetasConfirmada .menu_Direito{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
 }
 
-.title{
+#mainColetasConfirmada .title{
     padding-bottom: 40px;
 }
 
-.title h2{
+#mainColetasConfirmada .title h2{
     font-family: var(--font2);
     font-size: 2rem;
     text-transform: capitalize;
 }
 
-.title p{
+#mainColetasConfirmada .title p{
     font-family: var(--font2);
     font-size: 1rem;
     color: var(--cinza);
 }
 
 
-.margem_Doacao{
+#mainColetasConfirmada .margem_Doacao{
     border: 1px solid var(--cinza);
     /* width: 90%; */
     border-radius: 20px;
@@ -38,13 +38,13 @@
     font-family: var(--font2);
 }
 
-.btnRetirar{
+#mainColetasConfirmada .btnRetirar{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.btnRetirar > a{
+#mainColetasConfirmada .btnRetirar > a{
     border-radius: 15px;
     border: 4px solid var(--roxo);
     padding: 2px 35px;
@@ -55,7 +55,7 @@
 
 }
 
-.dados_doacao1{
+#mainColetasConfirmada .dados_doacao1{
     display: flex;
     justify-content: flex-start;
     padding-bottom: 30px;
@@ -142,12 +142,12 @@
     margin-bottom: 15px;
 }
 
-.btnRetirar{
+#mainColetasConfirmada .btnRetirar{
     display: flex;
     justify-content: space-around;
 }
 
-.btnRetirar a{
+#mainColetasConfirmada .btnRetirar a{
     color: var(--roxo);
     font-size: 20;
     font-weight: 800;

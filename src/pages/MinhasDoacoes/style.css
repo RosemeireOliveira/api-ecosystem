@@ -1,6 +1,6 @@
 
 
-.conteudo_doacoes{
+#mainMinhasDoacoes .conteudo_doacoes{
     display: grid;
     column-gap: 3rem;
     grid-template-columns: minmax(238px,0.25fr) 1fr;
@@ -8,39 +8,35 @@
 }
 
 
-.menu_Direito{
+#mainMinhasDoacoes .menu_Direito{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
 }
 
-.title{
+#mainMinhasDoacoes .title{
     padding-bottom: 40px;
 }
 
-.title h2{
+#mainMinhasDoacoes .title h2{
     font-family: var(--font2);
     font-size: 2rem;
     text-transform: capitalize;
 }
 
-.title p{
+#mainMinhasDoacoes .title p{
     font-family: var(--font2);
     font-size: 1rem;
     color: var(--cinza);
 }
 
-
-
-
-
-.links_pags{
+#mainMinhasDoacoes .links_pags{
     padding-bottom: 0.4rem;
 }
 
 
-.links_pags a{
+#mainMinhasDoacoes .links_pags a{
     border-radius: 9px;
     border: 2px solid rgba(156, 156, 156, 0.80);  
     padding: 1px 7px;
@@ -51,7 +47,7 @@
     color: var(--cinza);
 }
 
-.links_pags span{
+#mainMinhasDoacoes .links_pags span{
     font-size: 22px;
     font-family: var(--font1);
     color: var(--cinza);
@@ -59,20 +55,49 @@
 }
 
 
-.links_pags a:nth-child(1){
+#mainMinhasDoacoes .links_pags a:nth-child(1){
     border: 2px solid var(--verde2);
     color: var(--verde2);
 }
 
+#mainMinhasDoacoes .historic_cards{
+    border: 1px solid var(--cinza);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: var(--font2);
+}
+
+#mainMinhasDoacoes .Conteudo_Cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 1rem;
+    margin-bottom: 100px;
+
+}
+
+#mainMinhasDoacoes .Conteudo_Cards:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+#mainMinhasDoacoes .WrapperCard{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
 
 
-.btnVoltar{
+
+#mainMinhasDoacoes .btnVoltar{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.btnVoltar > a{
+#mainMinhasDoacoes .btnVoltar > a{
     border-radius: 15px;
     border: 4px solid var(--roxo);
     padding: 2px 35px;
