@@ -1,10 +1,12 @@
 import AsideDoador from '../../components/AsideDoador'
 import CardDoador from '../../components/CardDoador'
+import { Link } from 'react-router-dom'
 
 import './style.css'
 
 import imgCard001 from '../../assets/img/img_card_001.png'
 import imgCard002 from '../../assets/img/img_card_002.png'
+
 
 
 function MinhasDoacoes() {
@@ -26,11 +28,13 @@ function MinhasDoacoes() {
                         </div>
                         <div>
                             <div className="links_pags">
-                                <a href="../Tela_Minhas_Doacoes/index.html">doações ativas</a>
-                                <span>|</span>
-                                <a href="../Tela_Doacoes_Finalizadas/index.html">
-                                    doações finalizadas
-                                </a>
+                                {/* <a href="../Tela_Minhas_Doacoes/index.html">doações ativas</a> */}
+                                    <Link to="/minhasdoacoes">doações ativas</Link>
+                                    <span>|</span>
+                                    {/* <a href="../Tela_Doacoes_Finalizadas/index.html">
+                                        doações finalizadas
+                                    </a> */}
+                                    <Link to="/doacoesfinalizadas">doações finalizadas</Link>
                             </div>
                             <div className="historic_cards">
                                 <div className="Conteudo_Cards">

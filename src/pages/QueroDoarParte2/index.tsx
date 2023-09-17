@@ -6,6 +6,7 @@ import imgCelular2 from '../../assets/img/img_celular (2).png'
 import pilhaCelular from '../../assets/img/img_celular.png'
 import imgVazia from '../../assets/img/Vector.png'
 import AsideDoador from '../../components/AsideDoador'
+import { Link } from 'react-router-dom'
 
 function QueroDoarParte2() {
 
@@ -297,7 +298,8 @@ function QueroDoarParte2() {
                       >
                         Salvar
                       </a>
-                      <a href="../Tela_Quero_Doar_Pt1/index.html">Cancelar</a>
+                      {/* <a href="../Tela_Quero_Doar_Pt1/index.html">Cancelar</a> */}
+                      <Link to="/querodoarpt1">Cancelar</Link>
                     </div>
                   </div>
                 </div>

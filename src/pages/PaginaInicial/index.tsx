@@ -15,6 +15,7 @@ import home_carrousel_bg_banner2 from '../../assets/img/home_carrousel_bg_banner
 import home_carrousel_bg_banner3 from '../../assets/img/home_carrousel_bg_banner3.jpg'
 import Home_lixo_eletronico from '../../assets/img/Home_lixo_eletronico.png'
 import home_exemplosImg from '../../assets/img/home_exemplosImg.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -54,7 +55,8 @@ function PaginaInicial() {
                         <h2>ECO SYSTEM & </h2>
                         <h2>RECYCLE</h2>
                         <p>A Eco System & Recycle nasceu da necessidade por soluções que acelerem iniciativas de forma rápida e orgânica tornando se empresa de impacto socio ambiental.</p> 
-                        <a href="../Tela_Login_Doador/index.html" className="btn_cadastrar">cadastra-se</a>
+                        {/* <a href="../Tela_Login_Doador/index.html" className="btn_cadastrar">cadastra-se</a> */}
+                        <Link className="btn_cadastrar" to="/login">cadastra-se</Link>
                     </div>
                 </section>
                 <section className="txt_chamativo1">
@@ -72,7 +74,8 @@ function PaginaInicial() {
                             <p>
                                 Os equipamentos elétricos e eletrônicos possuem diversos componentes tóxicos em suas estruturas. Se descartados de maneira incorreta, esses resíduos podem contaminar o solo e os lençóis freáticos, colocando em risco a saúde pública.
                             </p>
-                            <a href="../TelaInformativo/index.html" className="btn_saibaMais">saiba mais</a>
+                            {/* <a href="../TelaInformativo/index.html" className="btn_saibaMais">saiba mais</a> */}
+                            <Link to="/informativo" className="btn_saibaMais">saiba mais</Link>
                         </div>
                         <img src={Home_lixo_eletronico} alt="Imagem ilustrativa de uma lixeira com teclados de notebook" />
                     </div>
@@ -84,18 +87,20 @@ function PaginaInicial() {
                             <h3>seja um doador</h3>
                             <p>
                                 Junte-se a nós no compromisso com a economia circular e sustentável, descartando de forma correta e eficiente com toda a comodidade e confiança que a tecnologia pode oferecer através de parceiros certificados e responsáveis.                    </p>
-                            <a href="../Tela_Login_Doador/index.html">
+                            {/* <a href="../Tela_Login_Doador/index.html">
                                 cadastre-se
-                            </a>
+                            </a> */}
+                            <Link to="/login">cadastra-se</Link>
                         </div>
                         <div className="cad_parceiro">
                             <h3>seja um parceiro</h3>
                             <p>
                                 Utilize o nosso sistema para alavancar e agendar coletas diretamente com consumidores, alterando o final do descarte e ajudando o meio ambiente através da economia circular.
                             </p>
-                            <a href="../Tela_Login_Doador/index.html">
+                            {/* <a href="../Tela_Login_Doador/index.html">
                                 cadastre-se
-                            </a>
+                            </a> */}
+                            <Link to="/login">cadastra-se</Link>
                         </div>
 
                     </div>
@@ -111,7 +116,8 @@ function PaginaInicial() {
                             O estudo aponta desperdício de US$ 1,7 bilhão ao ano, além dos danos ao meio ambiente. O Brasil é o quinto maior produtor mundial de lixo eletrônico e deve descartar mais de 2,5 milhões de toneladas este ano.
                             A média de reciclagem de eletrônicos no mundo gira em torno de 17%, que é a meta brasileira para 2025, definida no Acordo Setorial – Decreto 10.240/2020.
                         </p>
-                        <a href="../TelaInformativo/index.html">leia mais...</a>
+                        {/* <a href="../TelaInformativo/index.html">leia mais...</a> */}
+                        <Link to="/informativo">leia mais...</Link>
                     </div>
                 </section>
 

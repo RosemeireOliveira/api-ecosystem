@@ -5,6 +5,7 @@ import imgInformatica from '../../assets/img/img_informatica.png'
 import imgLinhaBranca from '../../assets/img/img_linha_branca.png'
 import imgBaterias from '../../assets/img/img_baterias_diversas.png'
 import AsideDoador from '../../components/AsideDoador'
+import { Link } from 'react-router-dom'
 
 function QueroDoarParte1() {
 
@@ -61,12 +62,13 @@ function QueroDoarParte1() {
                                             </div>
                                         </div>
                                         <div className="btnVoltar">
-                                            <a
+                                            {/* <a
                                                 href="../Tela_Quero_Doar_Parte_2/index.html"
                                                 className="btn_avancar"
                                             >
                                                 Avançar
-                                            </a>
+                                            </a> */}
+                                            <Link to="/querodoarpt2">Avançar</Link>
                                             <a
                                                 href="../Tela_Quero_Doar_Pt1/index.html"
                                                 className="btn_cancelar"
