@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     width: 55%;
-    height: 85%;
+    height: 90%;
     border-radius: 20px;
     background-color: rgba(217, 217, 217, 0.5);
 }
@@ -24,6 +24,7 @@
     text-transform: uppercase;
     font-size: 23px;
     font-weight: bolder;
+    margin-top: 30px;
 }
 
 .telaContato>a {
@@ -34,6 +35,7 @@
     padding: 5px 50px;
     border-radius: 25px;
     border: 4px solid #9F2FBB;
+    margin-bottom: 30px;
 }
 
 .cardContato {
@@ -68,7 +70,9 @@
     padding-top: 10px;
     border: 2px solid #d9d9d9;
     border-radius: 8px;
+    overflow: hidden;
 }
+
 
 .cardContato>form>textarea:nth-child(4) {
     height: 130px;
@@ -135,8 +139,79 @@
 
 /* Responsividade da página */
 
+@media screen and (max-width: 1640px) {
+    .cardContato>form {
+        width: 45%;
+    }
+
+    .mensagemContato {
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: 1506px) {
     .mensagemContato>p {
         font-size: 14px;
+    }
+
+    .contatos {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1348px) {
+
+    .telaContato {
+
+        width: 60%;
+
+    }
+
+    @media screen and (max-width: 1348px) {
+        .telaContato {
+
+            width: 65%;
+
+        }
+    }
+
+    @media screen and (max-width: 1140px) {
+        .telaContato {
+
+            width: 70%;
+
+        }
+    }
+
+    @media screen and (max-width: 1058px) {
+        .telaContato {
+
+            width: 75%;
+
+        }
+    }
+
+    @media screen and (max-width: 988px) {
+        .telaContato {
+
+            width: 80%;
+
+        }
+    }
+
+    @media screen and (max-width: 926px) {
+        .telaContato {
+
+            width: 85%;
+
+        }
+    }
+
+    @media screen and (max-width: 872px) {
+        .telaContato {
+
+            width: 90%;
+
+        }
     }
 }
