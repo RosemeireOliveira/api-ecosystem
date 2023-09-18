@@ -7,7 +7,7 @@ function Servicos(){
 
     return (
         
-        <main id='mainServicos'>
+        <main id='mainServicos' className='wrapper'>
         <h1>página serviços - ecosystem e recycle</h1>
         <section>
           <div className="tituloCarrosel wrapper">
