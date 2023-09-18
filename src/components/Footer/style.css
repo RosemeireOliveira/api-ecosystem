@@ -29,12 +29,18 @@ footer{
 
 .foot_menu a{
     color: var(--branco);
+
+}
+
+.foot_menu li:hover{
+    transform: scale(1.1);
 }
 
 
 .foot_menu ul{
 	list-style-type: none;
 	padding-left: 20px;
+    transition: 0.35s;
 }
 
 .foot_midiasBoletim span{

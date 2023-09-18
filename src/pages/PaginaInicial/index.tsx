@@ -90,7 +90,7 @@ function PaginaInicial() {
                             {/* <a href="../Tela_Login_Doador/index.html">
                                 cadastre-se
                             </a> */}
-                            <Link to="/login">cadastra-se</Link>
+                            <Link to="/login">cadastre-se</Link>
                         </div>
                         <div className="cad_parceiro">
                             <h3>seja um parceiro</h3>
@@ -100,7 +100,7 @@ function PaginaInicial() {
                             {/* <a href="../Tela_Login_Doador/index.html">
                                 cadastre-se
                             </a> */}
-                            <Link to="/login">cadastra-se</Link>
+                            <Link to="/login">cadastre-se</Link>
                         </div>
 
                     </div>
@@ -123,7 +123,7 @@ function PaginaInicial() {
 
                 <section className="exemplos">
                     <div className="exe_conteudo wrapper">
-                        <img src={home_exemplosImg} alt="Grupo de 9 imagens com exemplos de artes feitas através de materiais 100% aproveitado do descarte" />
+                        <img src={ home_exemplosImg } alt="Grupo de 9 imagens com exemplos de artes feitas através de materiais 100% aproveitado do descarte" />
                         <div>
                             <h4>Exemplos de Sustentabilidade.</h4>
                             <p>Reciclar é preciso, mas o que podemos fazer com os derivados de produtos eletrônicos que precisam ser jogados fora? Separamos algunsmas ideias pra você dar uma utilidade para seu lixo eletrônico e, de quebra, ajudar a natureza.</p>

@@ -127,19 +127,22 @@ header nav a{
 
 
 @media screen and (max-width: 400px) {
+    header{
+        height: fit-content;
+        padding: 10px 0;
+    }
+
     .div_headerPosition {
         flex-direction: column;
+        justify-content: center;
     }
 
     .div_headerPosition> img{
-        padding-top: 40px;
         width: 50%;
     }
     .div_Logado_E_Menu{
         width: 90%;
-        justify-content: space-between;
-        align-items: center;
-        /* padding-bottom: 30px; */
+        justify-content: center;
     }
 
 }

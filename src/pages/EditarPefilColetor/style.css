@@ -310,7 +310,7 @@ textarea {
 }
 
 @media screen and (max-width: 1072px) {
-    .conteudo_doacoes{
+    #mainEditarPerfilColetor.conteudo_doacoes{
 
         column-gap: 1rem;
         grid-template-columns: minmax(210px,0.15fr) 1fr;

@@ -2,6 +2,7 @@ import './style.css'
 import imgIconeEditar from '../../assets/img/ico_edit.svg'
 import imgIconeVisualizar from '../../assets/img/ico_eye.svg'
 import imgIconeDeletar from '../../assets/img/ico_delete.svg'
+import { Link } from 'react-router-dom';
 
 function CardDoador(props:any) {
     function msgExcluirDoacao():void{
@@ -32,16 +33,18 @@ function CardDoador(props:any) {
                     </p>
                 </div>
                 <div className="iconesCards">
-                    <a href="../Tela_Quero_Doar_Parte_2/index.html">
+                    {/* <a href="../Tela_Quero_Doar_Parte_2/index.html">
                         <img src={ imgIconeEditar } alt="Icone de Editar" />
-                    </a>
-                    <a href="../Tela_Quero_Doar_Parte_2/index.html">
+                    </a> */}
+                    <Link to="/querodoarpt2"><img src={ imgIconeEditar } alt="Icone de Editar" /></Link>
+                    {/* <a href="../Tela_Quero_Doar_Parte_2/index.html">
                         <img
                             src={ imgIconeVisualizar }
                             alt="Icone de visualizar"
                         />
-                    </a>
-                    <a
+                    </a> */}
+                    <Link to="/querodoarpt2"><img src={ imgIconeVisualizar } alt="Icone de visualizar"/></Link>
+                    {/* <a
                         href="../Tela_Quero_Doar_Pt1/index.html"
                         onClick={ msgExcluirDoacao }
                     >
@@ -49,7 +52,9 @@ function CardDoador(props:any) {
                             src={ imgIconeDeletar }
                             alt="Icone de Deletar"
                         />
-                    </a>
+                    </a> */}
+                    <Link to="/querodoarpt1" onClick={ msgExcluirDoacao }><img src={ imgIconeDeletar } alt="Icone de Deletar"/></Link>
+
                 </div>
             </div>
         </>
