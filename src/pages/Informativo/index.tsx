@@ -8,7 +8,7 @@ function Informativo() {
     return (
         <>
             <main id='mainInformativo'>
-                <h1>página ??????? ecosystem &amp; recycle</h1>
+                <h1>página Informativo ecosystem &amp; recycle</h1>
                 <section className="banner_fundo">
                     <div>
                         <div className="lixo1 wrapper">
@@ -132,7 +132,7 @@ function Informativo() {
 
                     {/* linha de separacao HR <hr /> */}
 
-                    <h2 className='git '> Dados sobre o descarte do lixo eletrônico. </h2>
+                    <h2> Dados sobre o descarte do lixo eletrônico. </h2>
 
                     <p>Fones de ouvido, pilhas, celulares, eletrodomésticos. Todos esses utensílios, quando deixam de funcionar e não são mais aproveitados,
                         viram lixo eletrônico. O Brasil o quinto maior gerador desse lixo no mundo. Mesmo assim, muita gente ainda não sabe o que esse tipo de
