@@ -22,7 +22,7 @@ function Contato() {
                 <section>
                     <div className=" telaContato wrapper">
                         <h2>contato</h2>
-                        <div className="cardContato flex">
+                        <div id='idContatoFormulario' className="cardContato flex">
                             <form>
                                 <textarea placeholder="Nome Completo" defaultValue={""} />
                                 <textarea placeholder="E-mail" defaultValue={""} />
